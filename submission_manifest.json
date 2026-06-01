@@ -1,0 +1,32 @@
+{
+  "package_name": "sacc_drama",
+  "license": "MIT",
+  "release": "v1.0.0",
+  "public_difficulties": {
+    "easy": "2 task cells, 2 regions, 0 obstacles",
+    "hard": "10 task cells, 4 regions, 1 obstacle"
+  },
+  "omitted": [
+    "results",
+    "runs",
+    "logs",
+    "artifacts",
+    "checkpoints",
+    "experiment archives"
+  ],
+  "components": {
+    "DRAMA": [
+      "benchmark package",
+      "environment",
+      "baseline algorithms",
+      "generic train.py",
+      "generic train_baseline.py",
+      "evaluation utilities"
+    ],
+    "SACC": [
+      "sacc package",
+      "tests",
+      "generic monitoring script"
+    ]
+  }
+}
