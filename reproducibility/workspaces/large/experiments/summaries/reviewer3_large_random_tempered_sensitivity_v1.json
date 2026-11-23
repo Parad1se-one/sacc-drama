@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "experiment_name": "reviewer3_large_random_tempered_sensitivity_v1",
+  "plan_sha256": "db20c8cffee42f173c1d810cea21acc564c69471316311443f59bc3d2c533bb2",
+  "source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331",
+  "cross_method_reward_metric": "mean_environment_return",
+  "statistical_unit": "independent_training_seed",
+  "bootstrap": {
+    "method": "paired training-seed percentile bootstrap of the mean difference",
+    "confidence_level": 0.95,
+    "seed": 20260914,
+    "resamples": 100000
+  },
+  "aggregates": [
+    {
+      "method": "sacc",
+      "protocol": "random",
+      "n_seeds": 3,
+      "metrics": {
+        "mean_completion_ratio": {
+          "mean": 0.9680208333333333,
+          "sample_std": 0.043403513882646766,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.9183333333333333
+            },
+            {
+              "seed": 123,
+              "value": 0.9871875
+            },
+            {
+              "seed": 456,
+              "value": 0.9985416666666667
+            }
+          ]
+        },
+        "success_rate": {
+          "mean": 0.62,
+          "sample_std": 0.41904653679513926,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.16
+            },
+            {
+              "seed": 123,
+              "value": 0.72
+            },
+            {
+              "seed": 456,
+              "value": 0.98
+            }
+          ]
+        },
+        "mean_steps": {
+          "mean": 566.1833333333334,
+          "sample_std": 170.90205567322275,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 741.28
+            },
+            {
+              "seed": 123,
+              "value": 557.46
+            },
+            {
+              "seed": 456,
+              "value": 399.81
+            }
+          ]
+        },
+        "mean_environment_return": {
+          "mean": 72.47433333333375,
+          "sample_std": 3.319565684443191,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 68.6920000000005
+            },
+            {
+              "seed": 123,
+              "value": 74.90400000000037
+            },
+            {
+              "seed": 456,
+              "value": 73.82700000000035
+            }
+          ]
+        },
+        "mean_objective_return": {
+          "mean": 314.0261133333336,
+          "sample_std": 20.144989162015708,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 290.8745800000004
+            },
+            {
+              "seed": 123,
+              "value": 323.64600000000024
+            },
+            {
+              "seed": 456,
+              "value": 327.55776000000026
+            }
+          ]
+        },
+        "mean_stay_fraction": {
+          "mean": 0.034920891155147724,
+          "sample_std": 0.01764351973006673,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.015246609493852483
+            },
+            {
+              "seed": 123,
+              "value": 0.04933905472086993
+            },
+            {
+              "seed": 456,
+              "value": 0.04017700925072075
+            }
+          ]
+        },
+        "mean_blocked_fraction": {
+          "mean": 0.048965247415548994,
+          "sample_std": 0.017889070424126276,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.03362925282089537
+            },
+            {
+              "seed": 123,
+              "value": 0.0446489093961419
+            },
+            {
+              "seed": 456,
+              "value": 0.06861758002960971
+            }
+          ]
+        },
+        "mean_missed_perform_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.0
+            },
+            {
+              "seed": 123,
+              "value": 0.0
+            },
+            {
+              "seed": 456,
+              "value": 0.0
+            }
+          ]
+        },
+        "mean_max_no_progress_streak": {
+          "mean": 210.10333333333332,
+          "sample_std": 145.5809178200678,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 374.11
+            },
+            {
+              "seed": 123,
+              "value": 160.04
+            },
+            {
+              "seed": 456,
+              "value": 96.16
+            }
+          ]
+        },
+        "mean_progress_steps": {
+          "mean": 76.69,
+          "sample_std": 3.0704397079245824,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 73.23
+            },
+            {
+              "seed": 123,
+              "value": 79.09
+            },
+            {
+              "seed": 456,
+              "value": 77.75
+            }
+          ]
+        },
+        "terminal_to_distribute": {
+          "mean": 0.55,
+          "sample_std": 0.859127464349732,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 1.54
+            },
+            {
+              "seed": 123,
+              "value": 0.11
+            },
+            {
+              "seed": 456,
+              "value": 0.0
+            }
+          ]
+        },
+        "terminal_to_vibrate": {
+          "mean": 0.14,
+          "sample_std": 0.12767145334803706,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.25
+            },
+            {
+              "seed": 123,
+              "value": 0.17
+            },
+            {
+              "seed": 456,
+              "value": 0.0
+            }
+          ]
+        },
+        "terminal_to_level": {
+          "mean": 0.16666666666666666,
+          "sample_std": 0.18475208614068026,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.38
+            },
+            {
+              "seed": 123,
+              "value": 0.06
+            },
+            {
+              "seed": 456,
+              "value": 0.06
+            }
+          ]
+        },
+        "terminal_to_cover": {
+          "mean": 0.11666666666666667,
+          "sample_std": 0.08386497083606083,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.17
+            },
+            {
+              "seed": 123,
+              "value": 0.16
+            },
+            {
+              "seed": 456,
+              "value": 0.02
+            }
+          ]
+        },
+        "terminal_completed": {
+          "mean": 23.026666666666667,
+          "sample_std": 1.2020537980195956,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 21.66
+            },
+            {
+              "seed": 123,
+              "value": 23.5
+            },
+            {
+              "seed": 456,
+              "value": 23.92
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "happo",
+      "protocol": "random",
+      "n_seeds": 3,
+      "metrics": {
+        "mean_completion_ratio": {
+          "mean": 0.9539930555555556,
+          "sample_std": 0.057402008641377775,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.888125
+            },
+            {
+              "seed": 123,
+              "value": 0.9933333333333333
+            },
+            {
+              "seed": 456,
+              "value": 0.9805208333333333
+            }
+          ]
+        },
+        "success_rate": {
+          "mean": 0.55,
+          "sample_std": 0.37509998667022104,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.12
+            },
+            {
+              "seed": 123,
+              "value": 0.81
+            },
+            {
+              "seed": 456,
+              "value": 0.72
+            }
+          ]
+        },
+        "mean_steps": {
+          "mean": 630.67,
+          "sample_std": 123.8778587964774,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 772.8
+            },
+            {
+              "seed": 123,
+              "value": 545.64
+            },
+            {
+              "seed": 456,
+              "value": 573.57
+            }
+          ]
+        },
+        "mean_environment_return": {
+          "mean": 66.31000000000046,
+          "sample_std": 4.327431224179149,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 61.50100000000037
+            },
+            {
+              "seed": 123,
+              "value": 69.8900000000005
+            },
+            {
+              "seed": 456,
+              "value": 67.53900000000051
+            }
+          ]
+        },
+        "mean_objective_return": {
+          "mean": 66.31000000000046,
+          "sample_std": 4.327431224179149,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 61.50100000000037
+            },
+            {
+              "seed": 123,
+              "value": 69.8900000000005
+            },
+            {
+              "seed": 456,
+              "value": 67.53900000000051
+            }
+          ]
+        },
+        "mean_stay_fraction": {
+          "mean": 0.13022475706195477,
+          "sample_std": 0.0841839788683314,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.227073107364844
+            },
+            {
+              "seed": 123,
+              "value": 0.08902831190064586
+            },
+            {
+              "seed": 456,
+              "value": 0.07457285192037443
+            }
+          ]
+        },
+        "mean_blocked_fraction": {
+          "mean": 0.05137565839851016,
+          "sample_std": 0.011170504000484341,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.03847708796031931
+            },
+            {
+              "seed": 123,
+              "value": 0.05780705191258519
+            },
+            {
+              "seed": 456,
+              "value": 0.05784283532262597
+            }
+          ]
+        },
+        "mean_missed_perform_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.0
+            },
+            {
+              "seed": 123,
+              "value": 0.0
+            },
+            {
+              "seed": 456,
+              "value": 0.0
+            }
+          ]
+        },
+        "mean_max_no_progress_streak": {
+          "mean": 176.88666666666668,
+          "sample_std": 28.242417271425847,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 205.34
+            },
+            {
+              "seed": 123,
+              "value": 148.86
+            },
+            {
+              "seed": 456,
+              "value": 176.46
+            }
+          ]
+        },
+        "mean_progress_steps": {
+          "mean": 78.30333333333333,
+          "sample_std": 2.1786540187311347,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 75.95
+            },
+            {
+              "seed": 123,
+              "value": 80.25
+            },
+            {
+              "seed": 456,
+              "value": 78.71
+            }
+          ]
+        },
+        "terminal_to_distribute": {
+          "mean": 0.5966666666666667,
+          "sample_std": 0.6598737252939636,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 1.34
+            },
+            {
+              "seed": 123,
+              "value": 0.08
+            },
+            {
+              "seed": 456,
+              "value": 0.37
+            }
+          ]
+        },
+        "terminal_to_vibrate": {
+          "mean": 0.26,
+          "sample_std": 0.3119294792096444,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 0.62
+            },
+            {
+              "seed": 123,
+              "value": 0.09
+            },
+            {
+              "seed": 456,
+              "value": 0.07
+            }
+          ]
+        },
+        "terminal_to_level": {
+          "mean": 0.38000000000000006,
+          "sample_std": 0.6322183167229498,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 1.11
+            },
+            {
+              "seed": 123,
+              "value": 0.01
+            },
+            {
+              "seed": 456,
+              "value": 0.02
+            }
+          ]
+        },
+        "terminal_to_cover": {
+          "mean": 0.49,
+          "sample_std": 0.7036334272900912,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 1.3
+            },
+            {
+              "seed": 123,
+              "value": 0.03
+            },
+            {
+              "seed": 456,
+              "value": 0.14
+            }
+          ]
+        },
+        "terminal_completed": {
+          "mean": 22.273333333333333,
+          "sample_std": 2.2974841312473373,
+          "seed_values": [
+            {
+              "seed": 42,
+              "value": 19.63
+            },
+            {
+              "seed": 123,
+              "value": 23.79
+            },
+            {
+              "seed": 456,
+              "value": 23.4
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "paired_effects": [
+    {
+      "protocol": "random",
+      "baseline": "happo",
+      "n_pairs": 3,
+      "metrics": {
+        "mean_completion_ratio": {
+          "orientation": "positive_favors_sacc",
+          "mean_difference": 0.014027777777777787,
+          "sample_std": 0.01850310049719392,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "differences": [
+            0.03020833333333328,
+            -0.006145833333333295,
+            0.018020833333333375
+          ],
+          "positive_pairs": 2,
+          "zero_pairs": 0,
+          "exact_two_sided_sign_flip_p": 0.5,
+          "paired_seed_bootstrap_mean_difference_95ci": [
+            -0.006145833333333295,
+            0.03020833333333328
+          ]
+        },
+        "success_rate": {
+          "orientation": "positive_favors_sacc",
+          "mean_difference": 0.06999999999999998,
+          "sample_std": 0.17691806012954137,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "differences": [
+            0.04000000000000001,
+            -0.09000000000000008,
+            0.26
+          ],
+          "positive_pairs": 2,
+          "zero_pairs": 0,
+          "exact_two_sided_sign_flip_p": 0.75,
+          "paired_seed_bootstrap_mean_difference_95ci": [
+            -0.09000000000000008,
+            0.26
+          ]
+        },
+        "mean_steps": {
+          "orientation": "positive_favors_sacc",
+          "mean_difference": 64.48666666666666,
+          "sample_std": 97.08287662267401,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "differences": [
+            31.519999999999982,
+            -11.82000000000005,
+            173.76000000000005
+          ],
+          "positive_pairs": 2,
+          "zero_pairs": 0,
+          "exact_two_sided_sign_flip_p": 0.5,
+          "paired_seed_bootstrap_mean_difference_95ci": [
+            -11.82000000000005,
+            173.76000000000008
+          ]
+        },
+        "mean_environment_return": {
+          "orientation": "positive_favors_sacc",
+          "mean_difference": 6.164333333333282,
+          "sample_std": 1.0937560666499668,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "differences": [
+            7.1910000000001375,
+            5.013999999999868,
+            6.28799999999984
+          ],
+          "positive_pairs": 3,
+          "zero_pairs": 0,
+          "exact_two_sided_sign_flip_p": 0.25,
+          "paired_seed_bootstrap_mean_difference_95ci": [
+            5.013999999999868,
+            7.1910000000001375
+          ]
+        }
+      }
+    }
+  ]
+}

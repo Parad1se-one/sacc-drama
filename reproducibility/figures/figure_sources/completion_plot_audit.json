@@ -1,0 +1,115 @@
+{
+  "snapshot_sha256": "1cb554b1486fe49b4ebc809d813c9c8b6604cf554e7d5963dc1ce2f1c892aa12",
+  "official_training_runs": 60,
+  "raw_episode_observations": 126000,
+  "seed_unit": "independent training run",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "display_smoothing": {
+    "kind": "EMA",
+    "previous_weight": 0.96,
+    "initial_value": "first observed episode per seed"
+  },
+  "center": "mean across smoothed training seeds",
+  "band": "sample SD (ddof=1) across smoothed training seeds; clipped to feasible [0,1] range",
+  "raw_lines": "faint, unsmoothed mean across the same five training seeds",
+  "not_a_confidence_interval": true,
+  "no_interpolation": true,
+  "omitted_method": {
+    "method": "MAHRM adaptation",
+    "reason": "Per-training-episode Completion was not logged; selection evaluations are not training observations. Final held-out results retained in Table 6."
+  },
+  "style_source": "{ARCHIVED_ROOT}",
+  "style_sha256": "b059328feb7127876a59fff9ac2aaf554f185605db4a07af8da0df245e708552",
+  "last_100_training_episode_mean_by_seed": {
+    "easy/sacc": [
+      0.97,
+      0.9675,
+      0.96125,
+      0.96375,
+      0.96625
+    ],
+    "easy/qmix": [
+      0.88375,
+      1.0,
+      0.77,
+      0.78625,
+      0.9775
+    ],
+    "easy/ippo": [
+      0.59625,
+      0.6125,
+      0.7475,
+      0.59625,
+      0.63375
+    ],
+    "easy/vdn": [
+      0.33625,
+      0.7625,
+      0.79125,
+      0.47125,
+      0.49375
+    ],
+    "easy/mappo": [
+      0.7075,
+      0.3225,
+      0.62625,
+      0.68125,
+      0.72375
+    ],
+    "easy/happo": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hard/sacc": [
+      0.9982500000000001,
+      0.9675,
+      0.6847500000000001,
+      0.21075,
+      0.02125
+    ],
+    "hard/qmix": [
+      0.27,
+      0.24925,
+      0.268,
+      0.06625,
+      0.07825
+    ],
+    "hard/ippo": [
+      0.6207499999999999,
+      0.6144999999999999,
+      0.642,
+      0.8100000000000002,
+      0.6472500000000001
+    ],
+    "hard/vdn": [
+      0.20449999999999996,
+      0.8687500000000001,
+      0.2555,
+      0.09700000000000002,
+      0.163
+    ],
+    "hard/mappo": [
+      0.5199999999999999,
+      0.6655000000000001,
+      0.653,
+      0.57625,
+      0.60425
+    ],
+    "hard/happo": [
+      0.0,
+      0.025,
+      0.004,
+      0.0017500000000000003,
+      0.020999999999999998
+    ]
+  }
+}

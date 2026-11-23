@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "name": "workflow_cross5_randomtrain_v2_final_eval",
+  "reviewer_items": [
+    "Branch-merge and re-entrant roles with random training starts"
+  ],
+  "difficulty": "cross5",
+  "evaluation_seed": 20260917,
+  "max_steps": 800,
+  "policy_mode": "greedy",
+  "policy_modes": [
+    "greedy",
+    "tempered"
+  ],
+  "expected_seeds": [
+    42,
+    123,
+    456
+  ],
+  "expected_methods": [
+    "full",
+    "team_rm",
+    "all_off"
+  ],
+  "reference_method": "full",
+  "comparison_methods": [
+    "team_rm",
+    "all_off"
+  ],
+  "training_episodes_by_method": {
+    "full": 4000,
+    "team_rm": 4000,
+    "all_off": 4000
+  },
+  "protocols": [
+    {
+      "name": "random",
+      "path": "experiments/protocols/v2/cross5_test_starts.json",
+      "file_sha256": "e8675ab54d3ec35eb061665caf8deccff557dc199e20b564f27c6f1560bcc9ab",
+      "start_set_id": "a61ae4b05670e88dbc66d2924c8be0170c6ec7ce4bab02358d32b7b97d1530fe",
+      "count": 100
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "full",
+      "variant": "full",
+      "seed": 42,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__full__seed42"
+    },
+    {
+      "method": "full",
+      "variant": "full",
+      "seed": 123,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__full__seed123"
+    },
+    {
+      "method": "full",
+      "variant": "full",
+      "seed": 456,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__full__seed456"
+    },
+    {
+      "method": "team_rm",
+      "variant": "team_rm",
+      "seed": 42,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__team_rm__seed42"
+    },
+    {
+      "method": "team_rm",
+      "variant": "team_rm",
+      "seed": 123,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__team_rm__seed123"
+    },
+    {
+      "method": "team_rm",
+      "variant": "team_rm",
+      "seed": 456,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__team_rm__seed456"
+    },
+    {
+      "method": "all_off",
+      "variant": "all_off",
+      "seed": 42,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__all_off__seed42"
+    },
+    {
+      "method": "all_off",
+      "variant": "all_off",
+      "seed": 123,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__all_off__seed123"
+    },
+    {
+      "method": "all_off",
+      "variant": "all_off",
+      "seed": 456,
+      "training_episodes": 4000,
+      "source": "run_record",
+      "record_kind": "ablation",
+      "records_dir": "experiments/run_records/workflow_cross5_randomtrain_v2",
+      "run_id": "workflow_cross5_randomtrain_v2__all_off__seed456"
+    }
+  ],
+  "tempered_temperature": 0.35,
+  "deployment_analysis": {
+    "primary": "greedy, matching the checkpoint-selection deployment",
+    "sensitivity": "tempered T=0.35 on every method, same checkpoints and test starts",
+    "provenance": "temperature fixed from prior Easy/Hard/Large evidence before v2 final tests",
+    "reporting_rule": "report both modes and all positive, negative, or inconclusive seed-level effects"
+  }
+}

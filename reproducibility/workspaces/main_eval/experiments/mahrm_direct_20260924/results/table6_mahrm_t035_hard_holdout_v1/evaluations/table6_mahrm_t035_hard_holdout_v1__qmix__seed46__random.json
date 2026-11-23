@@ -1,0 +1,5554 @@
+{
+  "algo": "qmix",
+  "difficulty": "hard",
+  "checkpoint_path": "{ARTIFACT_ROOT}/workspaces/baseline_train/results/original_submission_five_baseline/original_submission_five_baseline_hard_v1/workspaces/original_submission_five_baseline_hard_v1__qmix__seed46/checkpoints/qmix/original_submission_five_baseline_hard_v1__qmix__seed46_20260922-044613_best_by_completion.pth",
+  "max_steps": 500,
+  "seed": 2026092404,
+  "policy_mode": "greedy",
+  "temperature": 1.0,
+  "actor_observation_mode": "base",
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1006,
+          "stayed": 990,
+          "blocked": 1,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          252,
+          252,
+          252,
+          251,
+          3,
+          990
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 2,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 523,
+          "stayed": 1471,
+          "distribute_floor": 5,
+          "blocked": 1
+        },
+        "action_counts": [
+          253,
+          249,
+          10,
+          12,
+          5,
+          1471
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 244,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 3,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1008,
+          "stayed": 988,
+          "blocked": 1,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          491,
+          491,
+          12,
+          15,
+          3,
+          988
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 245,
+        "progress_steps": 3,
+        "first_progress_step": 10,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 4,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1011,
+          "stayed": 985,
+          "blocked": 1,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          496,
+          494,
+          14,
+          8,
+          3,
+          985
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 5,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 700,
+          "distribute_floor": 5,
+          "stayed": 1294,
+          "blocked": 1
+        },
+        "action_counts": [
+          181,
+          173,
+          172,
+          175,
+          5,
+          1294
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 486,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 6,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1496,
+          "stayed": 500,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          494,
+          490,
+          254,
+          258,
+          4,
+          500
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 4,
+        "first_progress_step": 9,
+        "max_no_progress_streak": 483,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 7,
+      "reward": -23.600000000000065,
+      "objective_return": -23.600000000000065,
+      "environment_return": -23.600000000000065,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1496,
+          "blocked": 246,
+          "stayed": 257,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          492,
+          498,
+          254,
+          498,
+          1,
+          257
+        ],
+        "perform_opportunities": 5,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 1,
+        "first_progress_step": 10,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 8,
+      "reward": -20.90000000000003,
+      "objective_return": -20.90000000000003,
+      "environment_return": -20.90000000000003,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "stayed": 744,
+          "distribute_floor": 3,
+          "blocked": 239
+        },
+        "action_counts": [
+          254,
+          252,
+          254,
+          493,
+          3,
+          744
+        ],
+        "perform_opportunities": 487,
+        "missed_perform_opportunities": 484,
+        "progress_steps": 3,
+        "first_progress_step": 10,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 9,
+      "reward": -21.100000000000033,
+      "objective_return": -21.100000000000033,
+      "environment_return": -21.100000000000033,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1013,
+          "stayed": 743,
+          "distribute_floor": 3,
+          "blocked": 241
+        },
+        "action_counts": [
+          254,
+          251,
+          255,
+          494,
+          3,
+          743
+        ],
+        "perform_opportunities": 486,
+        "missed_perform_opportunities": 483,
+        "progress_steps": 3,
+        "first_progress_step": 9,
+        "max_no_progress_streak": 486,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 10,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 532,
+          "distribute_floor": 3,
+          "stayed": 1465
+        },
+        "action_counts": [
+          255,
+          255,
+          11,
+          11,
+          3,
+          1465
+        ],
+        "perform_opportunities": 730,
+        "missed_perform_opportunities": 727,
+        "progress_steps": 3,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 11,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1012,
+          "distribute_floor": 4,
+          "stayed": 984
+        },
+        "action_counts": [
+          337,
+          332,
+          169,
+          174,
+          4,
+          984
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 4,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 12,
+      "reward": 2.0,
+      "objective_return": 2.0,
+      "environment_return": 2.0,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1496,
+          "stayed": 502,
+          "distribute_floor": 2
+        },
+        "action_counts": [
+          252,
+          254,
+          498,
+          492,
+          2,
+          502
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 245,
+        "progress_steps": 2,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 13,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "distribute_floor": 3,
+          "stayed": 983
+        },
+        "action_counts": [
+          495,
+          493,
+          12,
+          14,
+          3,
+          983
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 14,
+      "reward": 1.9,
+      "objective_return": 1.9,
+      "environment_return": 1.9,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1502,
+          "stayed": 495,
+          "distribute_floor": 2,
+          "blocked": 1
+        },
+        "action_counts": [
+          250,
+          252,
+          499,
+          502,
+          2,
+          495
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 2,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 15,
+      "reward": 4.4,
+      "objective_return": 4.4,
+      "environment_return": 4.4,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 684,
+          "stayed": 1305,
+          "blocked": 6,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          177,
+          175,
+          173,
+          165,
+          5,
+          1305
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 16,
+      "reward": 4.7,
+      "objective_return": 4.7,
+      "environment_return": 4.7,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 700,
+          "blocked": 3,
+          "stayed": 1292,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          178,
+          173,
+          176,
+          176,
+          5,
+          1292
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 5,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 17,
+      "reward": 2.8,
+      "objective_return": 2.8,
+      "environment_return": 2.8,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "stayed": 981,
+          "blocked": 2,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          496,
+          489,
+          16,
+          15,
+          3,
+          981
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 3,
+        "first_progress_step": 9,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 18,
+      "reward": 3.6999999999999997,
+      "objective_return": 3.6999999999999997,
+      "environment_return": 3.6999999999999997,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1491,
+          "stayed": 502,
+          "distribute_floor": 4,
+          "blocked": 3
+        },
+        "action_counts": [
+          253,
+          247,
+          493,
+          501,
+          4,
+          502
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 19,
+      "reward": -0.1,
+      "objective_return": -0.1,
+      "environment_return": -0.1,
+      "completion_ratio": 0.0,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1500,
+          "stayed": 499,
+          "blocked": 1
+        },
+        "action_counts": [
+          496,
+          501,
+          251,
+          253,
+          0,
+          499
+        ],
+        "perform_opportunities": 0,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 0,
+        "first_progress_step": null,
+        "max_no_progress_streak": 500,
+        "terminal_stage_counts": {
+          "to_distribute": 10,
+          "to_vibrate": 0,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 20,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1496,
+          "distribute_floor": 4,
+          "stayed": 500
+        },
+        "action_counts": [
+          497,
+          492,
+          251,
+          256,
+          4,
+          500
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 4,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 21,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 530,
+          "distribute_floor": 5,
+          "stayed": 1465
+        },
+        "action_counts": [
+          255,
+          253,
+          9,
+          13,
+          5,
+          1465
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 5,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 484,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 22,
+      "reward": 1.8,
+      "objective_return": 1.8,
+      "environment_return": 1.8,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1503,
+          "blocked": 2,
+          "stayed": 493,
+          "distribute_floor": 2
+        },
+        "action_counts": [
+          250,
+          251,
+          503,
+          501,
+          2,
+          493
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 2,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 23,
+      "reward": -22.700000000000056,
+      "objective_return": -22.700000000000056,
+      "environment_return": -22.700000000000056,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1013,
+          "stayed": 738,
+          "blocked": 247,
+          "distribute_floor": 2
+        },
+        "action_counts": [
+          250,
+          251,
+          257,
+          502,
+          2,
+          738
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 2,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 24,
+      "reward": 2.6999999999999997,
+      "objective_return": 2.6999999999999997,
+      "environment_return": 2.6999999999999997,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1003,
+          "stayed": 991,
+          "blocked": 3,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          496,
+          491,
+          10,
+          9,
+          3,
+          991
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 492,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 25,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 520,
+          "distribute_floor": 5,
+          "stayed": 1475
+        },
+        "action_counts": [
+          252,
+          250,
+          10,
+          8,
+          5,
+          1475
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 26,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 540,
+          "stayed": 1457,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          255,
+          257,
+          15,
+          13,
+          3,
+          1457
+        ],
+        "perform_opportunities": 718,
+        "missed_perform_opportunities": 715,
+        "progress_steps": 3,
+        "first_progress_step": 12,
+        "max_no_progress_streak": 483,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 27,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 544,
+          "blocked": 1,
+          "stayed": 1450,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          258,
+          253,
+          14,
+          20,
+          5,
+          1450
+        ],
+        "perform_opportunities": 246,
+        "missed_perform_opportunities": 241,
+        "progress_steps": 5,
+        "first_progress_step": 10,
+        "max_no_progress_streak": 480,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 28,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1011,
+          "distribute_floor": 4,
+          "stayed": 985
+        },
+        "action_counts": [
+          335,
+          333,
+          170,
+          173,
+          4,
+          985
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 29,
+      "reward": 2.8,
+      "objective_return": 2.8,
+      "environment_return": 2.8,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 526,
+          "distribute_floor": 3,
+          "blocked": 2,
+          "stayed": 1469
+        },
+        "action_counts": [
+          9,
+          9,
+          252,
+          258,
+          3,
+          1469
+        ],
+        "perform_opportunities": 494,
+        "missed_perform_opportunities": 491,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 30,
+      "reward": 1.0,
+      "objective_return": 1.0,
+      "environment_return": 1.0,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1992,
+          "stayed": 7,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          499,
+          497,
+          497,
+          499,
+          1,
+          7
+        ],
+        "perform_opportunities": 3,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 1,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 31,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 524,
+          "distribute_floor": 3,
+          "stayed": 1473
+        },
+        "action_counts": [
+          258,
+          251,
+          7,
+          8,
+          3,
+          1473
+        ],
+        "perform_opportunities": 733,
+        "missed_perform_opportunities": 730,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 32,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1494,
+          "distribute_floor": 4,
+          "stayed": 501,
+          "blocked": 1
+        },
+        "action_counts": [
+          254,
+          250,
+          495,
+          496,
+          4,
+          501
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 33,
+      "reward": -21.300000000000036,
+      "objective_return": -21.300000000000036,
+      "environment_return": -21.300000000000036,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1011,
+          "stayed": 743,
+          "distribute_floor": 3,
+          "blocked": 243
+        },
+        "action_counts": [
+          251,
+          252,
+          253,
+          498,
+          3,
+          743
+        ],
+        "perform_opportunities": 492,
+        "missed_perform_opportunities": 489,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 34,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1487,
+          "distribute_floor": 4,
+          "stayed": 508,
+          "blocked": 1
+        },
+        "action_counts": [
+          250,
+          247,
+          494,
+          497,
+          4,
+          508
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 35,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 694,
+          "stayed": 1300,
+          "distribute_floor": 5,
+          "blocked": 1
+        },
+        "action_counts": [
+          173,
+          174,
+          172,
+          176,
+          5,
+          1300
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 36,
+      "reward": 4.6,
+      "objective_return": 4.6,
+      "environment_return": 4.6,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 700,
+          "blocked": 4,
+          "stayed": 1291,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          179,
+          176,
+          175,
+          174,
+          5,
+          1291
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 5,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 480,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 37,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1006,
+          "distribute_floor": 3,
+          "stayed": 991
+        },
+        "action_counts": [
+          253,
+          251,
+          250,
+          252,
+          3,
+          991
+        ],
+        "perform_opportunities": 495,
+        "missed_perform_opportunities": 492,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 38,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1015,
+          "stayed": 982,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          498,
+          494,
+          12,
+          11,
+          3,
+          982
+        ],
+        "perform_opportunities": 252,
+        "missed_perform_opportunities": 249,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 39,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 693,
+          "stayed": 1301,
+          "distribute_floor": 5,
+          "blocked": 1
+        },
+        "action_counts": [
+          175,
+          170,
+          173,
+          176,
+          5,
+          1301
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 40,
+      "reward": 2.3,
+      "objective_return": 2.3,
+      "environment_return": 2.3,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1006,
+          "blocked": 7,
+          "stayed": 984,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          495,
+          496,
+          11,
+          11,
+          3,
+          984
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 41,
+      "reward": 2.8,
+      "objective_return": 2.8,
+      "environment_return": 2.8,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "blocked": 2,
+          "stayed": 981,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          498,
+          491,
+          15,
+          12,
+          3,
+          981
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 42,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 699,
+          "stayed": 1295,
+          "distribute_floor": 5,
+          "blocked": 1
+        },
+        "action_counts": [
+          175,
+          178,
+          171,
+          176,
+          5,
+          1295
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 5,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 43,
+      "reward": -21.400000000000038,
+      "objective_return": -21.400000000000038,
+      "environment_return": -21.400000000000038,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1008,
+          "distribute_floor": 3,
+          "stayed": 745,
+          "blocked": 244
+        },
+        "action_counts": [
+          254,
+          251,
+          252,
+          495,
+          3,
+          745
+        ],
+        "perform_opportunities": 494,
+        "missed_perform_opportunities": 491,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 44,
+      "reward": 0.9,
+      "objective_return": 0.9,
+      "environment_return": 0.9,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1986,
+          "stayed": 12,
+          "blocked": 1,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          496,
+          495,
+          499,
+          497,
+          1,
+          12
+        ],
+        "perform_opportunities": 5,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 1,
+        "first_progress_step": 13,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 45,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 523,
+          "stayed": 1474,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          254,
+          251,
+          9,
+          9,
+          3,
+          1474
+        ],
+        "perform_opportunities": 730,
+        "missed_perform_opportunities": 727,
+        "progress_steps": 3,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 46,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1007,
+          "distribute_floor": 3,
+          "stayed": 990
+        },
+        "action_counts": [
+          253,
+          253,
+          254,
+          247,
+          3,
+          990
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 3,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 492,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 47,
+      "reward": 2.0,
+      "objective_return": 2.0,
+      "environment_return": 2.0,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1498,
+          "distribute_floor": 2,
+          "stayed": 500
+        },
+        "action_counts": [
+          250,
+          252,
+          495,
+          501,
+          2,
+          500
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 248,
+        "progress_steps": 2,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 495,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 48,
+      "reward": 4.800000000000001,
+      "objective_return": 4.800000000000001,
+      "environment_return": 4.800000000000001,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 698,
+          "blocked": 2,
+          "stayed": 1295,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          176,
+          177,
+          176,
+          171,
+          5,
+          1295
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 49,
+      "reward": 1.9,
+      "objective_return": 1.9,
+      "environment_return": 1.9,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1499,
+          "stayed": 498,
+          "distribute_floor": 2,
+          "blocked": 1
+        },
+        "action_counts": [
+          251,
+          253,
+          496,
+          500,
+          2,
+          498
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 248,
+        "progress_steps": 2,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 495,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 50,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 699,
+          "distribute_floor": 5,
+          "stayed": 1295,
+          "blocked": 1
+        },
+        "action_counts": [
+          175,
+          171,
+          175,
+          179,
+          5,
+          1295
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 486,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 51,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1487,
+          "distribute_floor": 4,
+          "blocked": 2,
+          "stayed": 507
+        },
+        "action_counts": [
+          251,
+          247,
+          494,
+          497,
+          4,
+          507
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 52,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1492,
+          "blocked": 2,
+          "stayed": 502,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          253,
+          250,
+          497,
+          494,
+          4,
+          502
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 53,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1492,
+          "distribute_floor": 4,
+          "blocked": 2,
+          "stayed": 502
+        },
+        "action_counts": [
+          254,
+          248,
+          491,
+          501,
+          4,
+          502
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 54,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1490,
+          "blocked": 2,
+          "stayed": 504,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          251,
+          249,
+          498,
+          494,
+          4,
+          504
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 4,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 55,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 540,
+          "stayed": 1454,
+          "blocked": 1,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          253,
+          256,
+          14,
+          18,
+          5,
+          1454
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 242,
+        "progress_steps": 5,
+        "first_progress_step": 11,
+        "max_no_progress_streak": 477,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 56,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1013,
+          "stayed": 984,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          493,
+          491,
+          17,
+          12,
+          3,
+          984
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 57,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1009,
+          "distribute_floor": 3,
+          "stayed": 988
+        },
+        "action_counts": [
+          494,
+          493,
+          12,
+          10,
+          3,
+          988
+        ],
+        "perform_opportunities": 251,
+        "missed_perform_opportunities": 248,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 58,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1012,
+          "stayed": 984,
+          "blocked": 1,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          254,
+          251,
+          256,
+          252,
+          3,
+          984
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 3,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 59,
+      "reward": 4.9,
+      "objective_return": 4.9,
+      "environment_return": 4.9,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 682,
+          "blocked": 1,
+          "distribute_floor": 5,
+          "stayed": 1312
+        },
+        "action_counts": [
+          177,
+          169,
+          168,
+          169,
+          5,
+          1312
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 60,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1010,
+          "blocked": 1,
+          "stayed": 985,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          336,
+          337,
+          169,
+          169,
+          4,
+          985
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 61,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1492,
+          "stayed": 502,
+          "distribute_floor": 4,
+          "blocked": 2
+        },
+        "action_counts": [
+          255,
+          246,
+          494,
+          499,
+          4,
+          502
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 62,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1011,
+          "distribute_floor": 4,
+          "stayed": 985
+        },
+        "action_counts": [
+          334,
+          333,
+          168,
+          176,
+          4,
+          985
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 63,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1494,
+          "distribute_floor": 4,
+          "stayed": 502
+        },
+        "action_counts": [
+          496,
+          490,
+          254,
+          254,
+          4,
+          502
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 244,
+        "progress_steps": 4,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 64,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "stayed": 982,
+          "distribute_floor": 3,
+          "blocked": 1
+        },
+        "action_counts": [
+          257,
+          254,
+          254,
+          250,
+          3,
+          982
+        ],
+        "perform_opportunities": 251,
+        "missed_perform_opportunities": 248,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 65,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 518,
+          "stayed": 1477,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          10,
+          6,
+          250,
+          252,
+          5,
+          1477
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 66,
+      "reward": 2.8,
+      "objective_return": 2.8,
+      "environment_return": 2.8,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1006,
+          "blocked": 2,
+          "distribute_floor": 3,
+          "stayed": 989
+        },
+        "action_counts": [
+          256,
+          251,
+          250,
+          251,
+          3,
+          989
+        ],
+        "perform_opportunities": 252,
+        "missed_perform_opportunities": 249,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 67,
+      "reward": 0.8,
+      "objective_return": 0.8,
+      "environment_return": 0.8,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1987,
+          "blocked": 2,
+          "stayed": 10,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          496,
+          498,
+          496,
+          499,
+          1,
+          10
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 6,
+        "progress_steps": 1,
+        "first_progress_step": 13,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 68,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1494,
+          "distribute_floor": 4,
+          "stayed": 501,
+          "blocked": 1
+        },
+        "action_counts": [
+          254,
+          248,
+          497,
+          496,
+          4,
+          501
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 69,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 534,
+          "distribute_floor": 3,
+          "stayed": 1463
+        },
+        "action_counts": [
+          257,
+          257,
+          10,
+          10,
+          3,
+          1463
+        ],
+        "perform_opportunities": 726,
+        "missed_perform_opportunities": 723,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 70,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1012,
+          "stayed": 985,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          496,
+          493,
+          14,
+          9,
+          3,
+          985
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 247,
+        "progress_steps": 3,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 71,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 528,
+          "distribute_floor": 5,
+          "stayed": 1467
+        },
+        "action_counts": [
+          257,
+          251,
+          7,
+          13,
+          5,
+          1467
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 5,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 486,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 72,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1007,
+          "stayed": 989,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          337,
+          334,
+          168,
+          168,
+          4,
+          989
+        ],
+        "perform_opportunities": 5,
+        "missed_perform_opportunities": 1,
+        "progress_steps": 4,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 488,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 73,
+      "reward": 2.0,
+      "objective_return": 2.0,
+      "environment_return": 2.0,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1500,
+          "stayed": 498,
+          "distribute_floor": 2
+        },
+        "action_counts": [
+          250,
+          251,
+          496,
+          503,
+          2,
+          498
+        ],
+        "perform_opportunities": 251,
+        "missed_perform_opportunities": 249,
+        "progress_steps": 2,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 74,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 526,
+          "stayed": 1471,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          256,
+          253,
+          8,
+          9,
+          3,
+          1471
+        ],
+        "perform_opportunities": 730,
+        "missed_perform_opportunities": 727,
+        "progress_steps": 3,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 492,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 75,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 522,
+          "stayed": 1473,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          253,
+          250,
+          9,
+          10,
+          5,
+          1473
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 5,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 76,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 522,
+          "distribute_floor": 4,
+          "stayed": 1474
+        },
+        "action_counts": [
+          248,
+          251,
+          7,
+          16,
+          4,
+          1474
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 77,
+      "reward": 2.9,
+      "objective_return": 2.9,
+      "environment_return": 2.9,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1013,
+          "stayed": 983,
+          "blocked": 1,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          490,
+          490,
+          18,
+          16,
+          3,
+          983
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 244,
+        "progress_steps": 3,
+        "first_progress_step": 13,
+        "max_no_progress_streak": 482,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 78,
+      "reward": 2.0,
+      "objective_return": 2.0,
+      "environment_return": 2.0,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1509,
+          "distribute_floor": 2,
+          "stayed": 489
+        },
+        "action_counts": [
+          253,
+          253,
+          501,
+          502,
+          2,
+          489
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 2,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 79,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1491,
+          "stayed": 504,
+          "distribute_floor": 4,
+          "blocked": 1
+        },
+        "action_counts": [
+          250,
+          249,
+          496,
+          497,
+          4,
+          504
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 80,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1493,
+          "distribute_floor": 4,
+          "stayed": 503
+        },
+        "action_counts": [
+          499,
+          492,
+          250,
+          252,
+          4,
+          503
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 245,
+        "progress_steps": 4,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 81,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1020,
+          "distribute_floor": 3,
+          "stayed": 977
+        },
+        "action_counts": [
+          256,
+          251,
+          257,
+          256,
+          3,
+          977
+        ],
+        "perform_opportunities": 252,
+        "missed_perform_opportunities": 249,
+        "progress_steps": 3,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 82,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1501,
+          "stayed": 495,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          500,
+          495,
+          253,
+          253,
+          4,
+          495
+        ],
+        "perform_opportunities": 246,
+        "missed_perform_opportunities": 242,
+        "progress_steps": 4,
+        "first_progress_step": 12,
+        "max_no_progress_streak": 480,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 83,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1014,
+          "blocked": 1,
+          "distribute_floor": 4,
+          "stayed": 981
+        },
+        "action_counts": [
+          333,
+          333,
+          176,
+          173,
+          4,
+          981
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 84,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 528,
+          "stayed": 1467,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          254,
+          251,
+          10,
+          13,
+          5,
+          1467
+        ],
+        "perform_opportunities": 248,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 5,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 483,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 85,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1495,
+          "blocked": 1,
+          "stayed": 500,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          496,
+          490,
+          252,
+          258,
+          4,
+          500
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 245,
+        "progress_steps": 4,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 484,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 86,
+      "reward": -21.300000000000036,
+      "objective_return": -21.300000000000036,
+      "environment_return": -21.300000000000036,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1006,
+          "distribute_floor": 3,
+          "stayed": 748,
+          "blocked": 243
+        },
+        "action_counts": [
+          252,
+          249,
+          250,
+          498,
+          3,
+          748
+        ],
+        "perform_opportunities": 491,
+        "missed_perform_opportunities": 488,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 491,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 87,
+      "reward": -23.400000000000063,
+      "objective_return": -23.400000000000063,
+      "environment_return": -23.400000000000063,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1502,
+          "blocked": 244,
+          "stayed": 253,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          494,
+          506,
+          254,
+          492,
+          1,
+          253
+        ],
+        "perform_opportunities": 1,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 1,
+        "first_progress_step": 13,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 88,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1002,
+          "stayed": 993,
+          "blocked": 1,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          331,
+          334,
+          167,
+          171,
+          4,
+          993
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 89,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1491,
+          "stayed": 504,
+          "distribute_floor": 4,
+          "blocked": 1
+        },
+        "action_counts": [
+          257,
+          250,
+          493,
+          492,
+          4,
+          504
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 487,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 90,
+      "reward": 1.8,
+      "objective_return": 1.8,
+      "environment_return": 1.8,
+      "completion_ratio": 0.05,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1499,
+          "blocked": 2,
+          "distribute_floor": 2,
+          "stayed": 497
+        },
+        "action_counts": [
+          254,
+          251,
+          497,
+          499,
+          2,
+          497
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 248,
+        "progress_steps": 2,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 495,
+        "terminal_stage_counts": {
+          "to_distribute": 8,
+          "to_vibrate": 2,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 91,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 517,
+          "distribute_floor": 3,
+          "stayed": 1480
+        },
+        "action_counts": [
+          12,
+          6,
+          248,
+          251,
+          3,
+          1480
+        ],
+        "perform_opportunities": 495,
+        "missed_perform_opportunities": 492,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 92,
+      "reward": 3.8,
+      "objective_return": 3.8,
+      "environment_return": 3.8,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1494,
+          "stayed": 500,
+          "blocked": 2,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          258,
+          248,
+          494,
+          496,
+          4,
+          500
+        ],
+        "perform_opportunities": 6,
+        "missed_perform_opportunities": 2,
+        "progress_steps": 4,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 486,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 93,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 521,
+          "stayed": 1474,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          254,
+          253,
+          4,
+          10,
+          5,
+          1474
+        ],
+        "perform_opportunities": 250,
+        "missed_perform_opportunities": 245,
+        "progress_steps": 5,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 485,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 94,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1009,
+          "stayed": 988,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          257,
+          253,
+          252,
+          247,
+          3,
+          988
+        ],
+        "perform_opportunities": 249,
+        "missed_perform_opportunities": 246,
+        "progress_steps": 3,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 95,
+      "reward": 4.0,
+      "objective_return": 4.0,
+      "environment_return": 4.0,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1009,
+          "distribute_floor": 4,
+          "stayed": 987
+        },
+        "action_counts": [
+          337,
+          335,
+          166,
+          171,
+          4,
+          987
+        ],
+        "perform_opportunities": 7,
+        "missed_perform_opportunities": 3,
+        "progress_steps": 4,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 489,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 96,
+      "reward": 3.9,
+      "objective_return": 3.9,
+      "environment_return": 3.9,
+      "completion_ratio": 0.1,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1492,
+          "blocked": 1,
+          "stayed": 503,
+          "distribute_floor": 4
+        },
+        "action_counts": [
+          497,
+          489,
+          252,
+          255,
+          4,
+          503
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 243,
+        "progress_steps": 4,
+        "first_progress_step": 9,
+        "max_no_progress_streak": 483,
+        "terminal_stage_counts": {
+          "to_distribute": 6,
+          "to_vibrate": 4,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 97,
+      "reward": 3.0,
+      "objective_return": 3.0,
+      "environment_return": 3.0,
+      "completion_ratio": 0.075,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 529,
+          "stayed": 1468,
+          "distribute_floor": 3
+        },
+        "action_counts": [
+          257,
+          253,
+          10,
+          9,
+          3,
+          1468
+        ],
+        "perform_opportunities": 731,
+        "missed_perform_opportunities": 728,
+        "progress_steps": 3,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 493,
+        "terminal_stage_counts": {
+          "to_distribute": 7,
+          "to_vibrate": 3,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 98,
+      "reward": -23.600000000000065,
+      "objective_return": -23.600000000000065,
+      "environment_return": -23.600000000000065,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1498,
+          "stayed": 255,
+          "blocked": 246,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          499,
+          495,
+          254,
+          496,
+          1,
+          255
+        ],
+        "perform_opportunities": 5,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 1,
+        "first_progress_step": 10,
+        "max_no_progress_streak": 490,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 99,
+      "reward": 5.0,
+      "objective_return": 5.0,
+      "environment_return": 5.0,
+      "completion_ratio": 0.125,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 532,
+          "stayed": 1463,
+          "distribute_floor": 5
+        },
+        "action_counts": [
+          257,
+          252,
+          9,
+          14,
+          5,
+          1463
+        ],
+        "perform_opportunities": 247,
+        "missed_perform_opportunities": 242,
+        "progress_steps": 5,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 481,
+        "terminal_stage_counts": {
+          "to_distribute": 5,
+          "to_vibrate": 5,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    },
+    {
+      "episode": 100,
+      "reward": 0.9,
+      "objective_return": 0.9,
+      "environment_return": 0.9,
+      "completion_ratio": 0.025,
+      "steps": 500,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1989,
+          "stayed": 9,
+          "blocked": 1,
+          "distribute_floor": 1
+        },
+        "action_counts": [
+          500,
+          498,
+          494,
+          498,
+          1,
+          9
+        ],
+        "perform_opportunities": 5,
+        "missed_perform_opportunities": 4,
+        "progress_steps": 1,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 492,
+        "terminal_stage_counts": {
+          "to_distribute": 9,
+          "to_vibrate": 1,
+          "to_level": 0,
+          "to_cover": 0,
+          "completed": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mean_completion_ratio": 0.08600000000000001,
+    "std_completion_ratio": 0.029436372059070053,
+    "success_rate": 0.0,
+    "mean_steps": 500.0,
+    "std_steps": 0.0,
+    "mean_environment_return": 1.1629999999999958,
+    "std_environment_return": 7.41580278863996,
+    "mean_objective_return": 1.1629999999999958,
+    "std_objective_return": 7.41580278863996,
+    "mean_reward": 1.1629999999999958,
+    "std_reward": 7.41580278863996
+  },
+  "diagnostic_summary": {
+    "mean_stay_fraction": 0.4534,
+    "mean_blocked_fraction": 0.011385,
+    "mean_missed_perform_rate": 0.7437988184386647,
+    "mean_max_no_progress_streak": 488.24,
+    "mean_progress_steps": 3.44,
+    "mean_terminal_stage_counts": {
+      "to_distribute": 6.56,
+      "to_vibrate": 3.44,
+      "to_level": 0.0,
+      "to_cover": 0.0,
+      "completed": 0.0
+    }
+  },
+  "metadata": {
+    "difficulty": "hard",
+    "seed": 46,
+    "episodes": 1200,
+    "max_steps": 500,
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "ppo_epochs": 8,
+    "mini_batch_size": 64,
+    "clip_eps": 0.2,
+    "lam": 0.95,
+    "grad_clip": 10.0,
+    "value_noise_std": 0.0,
+    "entropy_coef": 0.005,
+    "save_interval": 500,
+    "eval_interval": 100,
+    "eval_episodes": 20,
+    "eval_policy_mode": "tempered",
+    "eval_temperature": 0.35,
+    "eval_seed": 820042,
+    "training_start_protocol": "random",
+    "selection_start_protocol": "independent_start_set",
+    "validation_start_set": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/protocols/v8/hard_submission_selection_starts.json",
+    "algo": "qmix",
+    "variant": "baseline",
+    "obs_dim": 188,
+    "state_dim": 44,
+    "action_n": 6,
+    "uses_rm": false,
+    "state_mode": "legacy",
+    "use_action_mask": true,
+    "use_double_q": false,
+    "global_reward_mode": "sum",
+    "rm_kwargs": {},
+    "best_eval": {
+      "mean_completion_ratio": 0.09,
+      "std_completion_ratio": 0.03,
+      "success_rate": 0.0,
+      "mean_steps": 500.0,
+      "std_steps": 0.0,
+      "mean_reward": 2.294999999999998,
+      "std_reward": 5.516654330298399
+    }
+  },
+  "evaluation_reward_definitions": {
+    "objective_return": "sum of the method-specific training objective rewards across agents",
+    "environment_return": "sum of raw DRAMA environment rewards across agents"
+  },
+  "start_protocol": "versioned_random",
+  "start_set_path": "{ARTIFACT_ROOT}/workspaces/main_eval/experiments/mahrm_direct_20260924/protocols/hard_test.json",
+  "start_set_id": "6895000ba405a22e4fc4a80f3e1aafe66f9f6f193616c4d4ef446889d2a62ddd",
+  "start_split": "mahrm_20260924_test",
+  "unique_start_count": 100,
+  "selection_start_set": {
+    "path": "{ARTIFACT_ROOT}/workspaces/main_eval/experiments/mahrm_direct_20260924/protocols/hard_test.json",
+    "start_set_id": "6895000ba405a22e4fc4a80f3e1aafe66f9f6f193616c4d4ef446889d2a62ddd"
+  }
+}

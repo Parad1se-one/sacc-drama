@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "benchmark": "DRAMA",
+  "difficulty": "hard",
+  "split": "fixed_test",
+  "generator_seed": 0,
+  "count": 1,
+  "robot_order": [
+    "material_distributer",
+    "vibrator",
+    "leveler",
+    "film_cover"
+  ],
+  "fixed_start_positions": [
+    [0, 0],
+    [1, 1],
+    [2, 0],
+    [2, 2]
+  ],
+  "generation": {
+    "exclude_task_cells": false,
+    "min_pairwise_manhattan": 1,
+    "sampling": "benchmark_fixed_role_order",
+    "duplicates_across_episodes": false
+  },
+  "starts": [
+    [
+      [0, 0],
+      [1, 1],
+      [2, 0],
+      [2, 2]
+    ]
+  ],
+  "start_set_id": "288dbddc462067c7533ad21bd28e26160c1c05d06e1215217ef9e4f831a764ef"
+}

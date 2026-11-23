@@ -1,0 +1,32 @@
+{
+  "source": "{ARTIFACT_ROOT}/workspaces/cross/experiments/summaries/workflow_cross5_randomtrain_v2_final_eval_integrated.json",
+  "source_sha256": "882bfc097b49a3f34f48e652a60ed2fa22b56b7de08d4df9c828d58f82da6086",
+  "plan_sha256": "754a437221076accc65a3449b2f6cabdc0b80a0d5cb0828db291981b6853a475",
+  "retrieved": "2026-09-28",
+  "temperature": 0.35,
+  "training_seeds": [42,123,456],
+  "episodes_per_seed": 100,
+  "step_cap": 800,
+  "statistical_unit": "independent_training_seed",
+  "cross_method_reward_metric": "mean_environment_return",
+  "methods": {
+    "full": {
+      "completion": [0.9823809523809524,0.9125,0.9948809523809524],
+      "success": [0.42,0.46,0.9],
+      "steps": [597.32,679.58,378.16],
+      "environment_return": [76.96800000000012,68.0530000000001,77.96800000000013]
+    },
+    "team_rm": {
+      "completion": [0.9558333333333333,0.9211904761904762,0.8783333333333333],
+      "success": [0.29,0.22,0.04],
+      "steps": [729.79,739.15,788.44],
+      "environment_return": [67.50700000000019,65.8510000000002,66.74200000000006]
+    },
+    "all_off": {
+      "completion": [0.8398809523809524,0.9110714285714285,0.9678571428571429],
+      "success": [0.03,0.21,0.5],
+      "steps": [796.03,757.85,639.41],
+      "environment_return": [60.45700000000002,66.69100000000026,73.0700000000002]
+    }
+  }
+}

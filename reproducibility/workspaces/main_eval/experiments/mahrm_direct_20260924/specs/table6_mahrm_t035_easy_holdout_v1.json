@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "name": "table6_mahrm_t035_easy_holdout_v1",
+  "reviewer_items": [
+    "MAHRM_direct_comparison",
+    "Table6_common_t035"
+  ],
+  "difficulty": "easy",
+  "evaluation_seed": 2026092403,
+  "max_steps": 300,
+  "policy_mode": "tempered",
+  "temperature": 0.35,
+  "expected_methods": [
+    "sacc",
+    "qmix",
+    "vdn",
+    "mappo",
+    "ippo",
+    "happo"
+  ],
+  "expected_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "training_episodes_by_method": {
+    "sacc": 3000,
+    "qmix": 3000,
+    "vdn": 3000,
+    "mappo": 3000,
+    "ippo": 3000,
+    "happo": 3000
+  },
+  "protocols": [
+    {
+      "name": "random",
+      "path": "experiments/mahrm_direct_20260924/protocols/easy_test.json",
+      "file_sha256": "1c3efbe50a2fbcafe9e542e99f11e02eba50af79ae7a030eecf7db6bbbb6f7c2",
+      "start_set_id": "e3ac4565e9531b3c49df92121fd247e886deda09b2189e26ca4f2ef26f9d95c4",
+      "count": 100
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "sacc",
+      "seed": 42,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/submission_reproduction/submission_reproduction_easy_v1/drama/easy/submission_reproduction_easy_v1__submitted_sacc__seed42_20260918-160627/checkpoints/best_by_completion.pt",
+      "sha256": "6ab08a52ee4b72222cdab488a3c3f98898c0ae1b03029f8db78966162c6191b6",
+      "selected_at_episode": 2000,
+      "training_episodes": 3000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/sacc_train/experiments/run_records/submission_reproduction_easy_v1/submission_reproduction_easy_v1__submitted_sacc__seed42.json",
+      "training_record_sha256": "1f4cac0432c9acc4f06a1950a918b99b8fb6cbe2c519419b6810272c14099ca5"
+    },
+    {
+      "method": "sacc",
+      "seed": 43,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/submission_reproduction/submission_reproduction_easy_v1/drama/easy/submission_reproduction_easy_v1__submitted_sacc__seed43_20260918-160627/checkpoints/best_by_completion.pt",
+      "sha256": "7300783dcf93a8f81e4688c2f41268a88ce49c1ab4669ef1102d164d345d1ab9",
+      "selected_at_episode": 2800,
+      "training_episodes": 3000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/sacc_train/experiments/run_records/submission_reproduction_easy_v1/submission_reproduction_easy_v1__submitted_sacc__seed43.json",
+      "training_record_sha256": "d5852fbf090aee990b921424c2f8a6c703cd889557963d53fc1089173dfdc843"
+    },
+    {
+      "method": "sacc",
+      "seed": 44,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/submission_reproduction/submission_reproduction_easy_v1/drama/easy/submission_reproduction_easy_v1__submitted_sacc__seed44_20260918-164956/checkpoints/best_by_completion.pt",
+      "sha256": "f55748fe3bb1ed0b2d147d81f3fdb6c56e5dfd5d3ce1654152aac8031bd673c5",
+      "selected_at_episode": 1900,
+      "training_episodes": 3000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/sacc_train/experiments/run_records/submission_reproduction_easy_v1/submission_reproduction_easy_v1__submitted_sacc__seed44.json",
+      "training_record_sha256": "1303931865198a9e2e0842338f2652a33a9a999ec394fa9bf9852e0a6f9adb0f"
+    },
+    {
+      "method": "sacc",
+      "seed": 45,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/submission_reproduction/submission_reproduction_easy_v1/drama/easy/submission_reproduction_easy_v1__submitted_sacc__seed45_20260918-172151/checkpoints/best_by_completion.pt",
+      "sha256": "525e525ef620656c9b9544f6409a95058045ca47354ad5ddb580583191fea03b",
+      "selected_at_episode": 2200,
+      "training_episodes": 3000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/sacc_train/experiments/run_records/submission_reproduction_easy_v1/submission_reproduction_easy_v1__submitted_sacc__seed45.json",
+      "training_record_sha256": "ab302edf97a2ab31347661f9302ccc462e757446f68194d79772bda9276ca41c"
+    },
+    {
+      "method": "sacc",
+      "seed": 46,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/submission_reproduction/submission_reproduction_easy_v1/drama/easy/submission_reproduction_easy_v1__submitted_sacc__seed46_20260918-172702/checkpoints/best_by_completion.pt",
+      "sha256": "5b21edc1d221609e9204ec991e012a343c9a95bafaa5cada1b37e01d3008c4d3",
+      "selected_at_episode": 1800,
+      "training_episodes": 3000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/sacc_train/experiments/run_records/submission_reproduction_easy_v1/submission_reproduction_easy_v1__submitted_sacc__seed46.json",
+      "training_record_sha256": "812d1161faac7ce2d2a703622ab71d274b104e3b3d98aaccb54d8d30931efe41"
+    },
+    {
+      "method": "qmix",
+      "seed": 42,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__qmix__seed42",
+      "training_episodes": 3000
+    },
+    {
+      "method": "qmix",
+      "seed": 43,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__qmix__seed43",
+      "training_episodes": 3000
+    },
+    {
+      "method": "qmix",
+      "seed": 44,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__qmix__seed44",
+      "training_episodes": 3000
+    },
+    {
+      "method": "qmix",
+      "seed": 45,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__qmix__seed45",
+      "training_episodes": 3000
+    },
+    {
+      "method": "qmix",
+      "seed": 46,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__qmix__seed46",
+      "training_episodes": 3000
+    },
+    {
+      "method": "vdn",
+      "seed": 42,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__vdn__seed42",
+      "training_episodes": 3000
+    },
+    {
+      "method": "vdn",
+      "seed": 43,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__vdn__seed43",
+      "training_episodes": 3000
+    },
+    {
+      "method": "vdn",
+      "seed": 44,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__vdn__seed44",
+      "training_episodes": 3000
+    },
+    {
+      "method": "vdn",
+      "seed": 45,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__vdn__seed45",
+      "training_episodes": 3000
+    },
+    {
+      "method": "vdn",
+      "seed": 46,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__vdn__seed46",
+      "training_episodes": 3000
+    },
+    {
+      "method": "mappo",
+      "seed": 42,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__mappo__seed42",
+      "training_episodes": 3000
+    },
+    {
+      "method": "mappo",
+      "seed": 43,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__mappo__seed43",
+      "training_episodes": 3000
+    },
+    {
+      "method": "mappo",
+      "seed": 44,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__mappo__seed44",
+      "training_episodes": 3000
+    },
+    {
+      "method": "mappo",
+      "seed": 45,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__mappo__seed45",
+      "training_episodes": 3000
+    },
+    {
+      "method": "mappo",
+      "seed": 46,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__mappo__seed46",
+      "training_episodes": 3000
+    },
+    {
+      "method": "ippo",
+      "seed": 42,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__ippo__seed42",
+      "training_episodes": 3000
+    },
+    {
+      "method": "ippo",
+      "seed": 43,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__ippo__seed43",
+      "training_episodes": 3000
+    },
+    {
+      "method": "ippo",
+      "seed": 44,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__ippo__seed44",
+      "training_episodes": 3000
+    },
+    {
+      "method": "ippo",
+      "seed": 45,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__ippo__seed45",
+      "training_episodes": 3000
+    },
+    {
+      "method": "ippo",
+      "seed": 46,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__ippo__seed46",
+      "training_episodes": 3000
+    },
+    {
+      "method": "happo",
+      "seed": 42,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__happo__seed42",
+      "training_episodes": 3000
+    },
+    {
+      "method": "happo",
+      "seed": 43,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__happo__seed43",
+      "training_episodes": 3000
+    },
+    {
+      "method": "happo",
+      "seed": 44,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__happo__seed44",
+      "training_episodes": 3000
+    },
+    {
+      "method": "happo",
+      "seed": 45,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__happo__seed45",
+      "training_episodes": 3000
+    },
+    {
+      "method": "happo",
+      "seed": 46,
+      "source": "run_record",
+      "record_kind": "baseline",
+      "records_dir": "{ARTIFACT_ROOT}/workspaces/baseline_train/experiments/baseline_run_records/original_submission_five_baseline_easy_v1",
+      "run_id": "original_submission_five_baseline_easy_v1__happo__seed46",
+      "training_episodes": 3000
+    }
+  ],
+  "deployment_by_method": {
+    "qmix": {
+      "policy_mode": "greedy",
+      "temperature": 1.0
+    },
+    "vdn": {
+      "policy_mode": "greedy",
+      "temperature": 1.0
+    }
+  },
+  "holdout_protocol_audit": "experiments/mahrm_direct_20260924/protocols/protocol_audit.json",
+  "holdout_protocol_audit_sha256": "0695b8305806c0e12bc031728f6e5c1af34f5983d024762cba90f6727d574e0e",
+  "source_spec_sha256": "c13c0ac2285ee829d6dc67b7e5c1a133c4cb4cda789c35da82f4417cccfc648d"
+}

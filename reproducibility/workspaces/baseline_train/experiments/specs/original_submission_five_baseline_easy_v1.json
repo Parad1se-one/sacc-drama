@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "name": "original_submission_five_baseline_easy_v1",
+  "reviewer_items": [
+    "R1_main_comparison",
+    "R2_metric_validity",
+    "R3_scale_and_generality",
+    "original_submission_reproduction"
+  ],
+  "difficulty": "easy",
+  "reason": "Faithful rerun of the submitted five-baseline protocol with the paper-declared 42-46 seeds, random legal training starts, action masking, declared budget, and a training-disjoint frozen selection set.",
+  "training_start_protocol": "random",
+  "selection_start_protocol": "v8_training_and_prior_protocol_disjoint_random_start_set",
+  "selection_rule": "max completion, then max success, then earliest checkpoint",
+  "common_args": {
+    "episodes": 3000,
+    "max_steps": 300,
+    "lr": 0.0005,
+    "gamma": 0.99,
+    "mini_batch_size": 64,
+    "clip_eps": 0.2,
+    "lam": 0.95,
+    "grad_clip": 10.0,
+    "value_noise_std": 0,
+    "entropy_coef": 0.01,
+    "save_interval": 500,
+    "eval_interval": 100,
+    "eval_episodes": 10,
+    "train_start_protocol": "random",
+    "validation_start_set": "experiments/protocols/v8/easy_submission_selection_starts.json",
+    "eval_policy_mode": "greedy",
+    "eval_temperature": 0.35,
+    "eval_seed": 810042
+  },
+  "methods": [
+    {
+      "algo": "qmix",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "overrides": {
+        "eps_decay": 50000,
+        "state_mode": "legacy"
+      }
+    },
+    {
+      "algo": "vdn",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "overrides": {
+        "eps_decay": 50000
+      }
+    },
+    {
+      "algo": "mappo",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "overrides": {
+        "ppo_epochs": 4
+      }
+    },
+    {
+      "algo": "ippo",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "overrides": {
+        "ppo_epochs": 4
+      }
+    },
+    {
+      "algo": "happo",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "overrides": {
+        "ppo_epochs": 4
+      }
+    }
+  ],
+  "final_random_start_set": "experiments/protocols/v8/easy_submission_test_starts.json",
+  "predeclared_execution_gate": "Run only from the isolated codex/original-five-baseline-reproduction-20260921 branch after all five methods pass Easy/Hard smoke tests."
+}

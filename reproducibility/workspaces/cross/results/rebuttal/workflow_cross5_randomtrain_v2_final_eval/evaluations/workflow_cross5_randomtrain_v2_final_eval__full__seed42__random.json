@@ -1,0 +1,9330 @@
+{
+  "algo": "full",
+  "difficulty": "cross5",
+  "checkpoint_path": "{ARTIFACT_ROOT}/workspaces/cross/results/workflow_extensions/workflow_cross5_randomtrain_v2/drama/cross5/workflow_cross5_randomtrain_v2__full__seed42_20260920-010955/checkpoints/best_by_completion.pt",
+  "max_steps": 800,
+  "seed": 20260917,
+  "policy_mode": "greedy",
+  "temperature": 0.35,
+  "cycle_break_no_progress_steps": 8,
+  "cycle_break_repeat_visits": 2,
+  "actor_observation_mode": "sacc",
+  "episodes": [
+    {
+      "episode": 1,
+      "objective_return": 229.74800000000005,
+      "environment_return": 75.49999999999997,
+      "reward": 229.74800000000005,
+      "completion_ratio": 0.9285714285714286,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3190,
+          "blocked": 25,
+          "stayed": 707,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 11,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          1139,
+          1138,
+          469,
+          469,
+          78,
+          707
+        ],
+        "perform_opportunities": 78,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 62,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 647,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 78,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 2,
+      "objective_return": 253.41399999999996,
+      "environment_return": 81.9,
+      "reward": 253.41399999999996,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3115,
+          "blocked": 11,
+          "cross_stage_1a": 12,
+          "stayed": 791,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1051,
+          1045,
+          517,
+          513,
+          83,
+          791
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 65,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 663,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 3,
+      "objective_return": 235.0319999999938,
+      "environment_return": 76.60000000000007,
+      "reward": 235.0319999999938,
+      "completion_ratio": 0.9404761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2537,
+          "cross_stage_1a": 12,
+          "stayed": 1360,
+          "blocked": 24,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          1161,
+          1155,
+          124,
+          121,
+          79,
+          1360
+        ],
+        "perform_opportunities": 79,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 57,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 666,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 2,
+          "completed_operations": 79,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 4,
+      "objective_return": -59.85200000000091,
+      "environment_return": -39.9000000000003,
+      "reward": -59.85200000000091,
+      "completion_ratio": 0.0,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3203,
+          "blocked": 399,
+          "stayed": 398
+        },
+        "action_counts": [
+          1995,
+          1596,
+          6,
+          5,
+          0,
+          398
+        ],
+        "perform_opportunities": 0,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 0,
+        "first_progress_step": null,
+        "max_no_progress_streak": 800,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 12,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 0,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 5,
+      "objective_return": 238.12400000000008,
+      "environment_return": 76.79999999999998,
+      "reward": 238.12400000000008,
+      "completion_ratio": 0.9404761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3202,
+          "cross_stage_1a": 12,
+          "blocked": 22,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "stayed": 697,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 8
+        },
+        "action_counts": [
+          1155,
+          1152,
+          457,
+          460,
+          79,
+          697
+        ],
+        "perform_opportunities": 79,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 60,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 655,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 3,
+          "completed_operations": 79,
+          "completed_cells": 8
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 6,
+      "objective_return": 207.13199999999998,
+      "environment_return": 67.1,
+      "reward": 207.13199999999998,
+      "completion_ratio": 0.8214285714285714,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3897,
+          "blocked": 19,
+          "cross_stage_1a": 12,
+          "stayed": 15,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 8,
+          "cross_stage_5": 2
+        },
+        "action_counts": [
+          1489,
+          1492,
+          468,
+          467,
+          69,
+          15
+        ],
+        "perform_opportunities": 69,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 54,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 677,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 3,
+          "active_n5": 6,
+          "completed_operations": 69,
+          "completed_cells": 2
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 7,
+      "objective_return": 178.53400000000414,
+      "environment_return": 41.40000000000016,
+      "reward": 178.53400000000414,
+      "completion_ratio": 0.8928571428571429,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2607,
+          "cross_stage_1a": 12,
+          "blocked": 336,
+          "stayed": 982,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 9,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          1124,
+          1434,
+          196,
+          189,
+          75,
+          982
+        ],
+        "perform_opportunities": 75,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 619,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 3,
+          "completed_operations": 75,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 8,
+      "objective_return": 92.02200000000057,
+      "environment_return": 21.699999999999726,
+      "reward": 92.02200000000057,
+      "completion_ratio": 0.4880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2822,
+          "cross_stage_1a": 10,
+          "blocked": 193,
+          "stayed": 944,
+          "cross_stage_2a": 9,
+          "cross_stage_3": 9,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 1
+        },
+        "action_counts": [
+          1166,
+          978,
+          435,
+          436,
+          41,
+          944
+        ],
+        "perform_opportunities": 41,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 32,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 749,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 2,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 1,
+          "active_n2b": 4,
+          "active_n4": 3,
+          "active_n5": 1,
+          "completed_operations": 41,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 9,
+      "objective_return": 246.60599999999997,
+      "environment_return": 79.40000000000006,
+      "reward": 246.60599999999997,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3220,
+          "cross_stage_1a": 12,
+          "blocked": 26,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "stayed": 672,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1064,
+          1051,
+          564,
+          567,
+          82,
+          672
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 603,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 82,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 10,
+      "objective_return": 105.59400000000102,
+      "environment_return": 16.79999999999948,
+      "reward": 105.59400000000102,
+      "completion_ratio": 0.6428571428571429,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2490,
+          "blocked": 372,
+          "stayed": 1084,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 5,
+          "cross_stage_4": 4,
+          "cross_stage_5": 2
+        },
+        "action_counts": [
+          533,
+          891,
+          723,
+          715,
+          54,
+          1084
+        ],
+        "perform_opportunities": 54,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 40,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 717,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 3,
+          "active_n2b": 3,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 54,
+          "completed_cells": 2
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 11,
+      "objective_return": 231.31600000000006,
+      "environment_return": 75.20000000000002,
+      "reward": 231.31600000000006,
+      "completion_ratio": 0.9047619047619048,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3201,
+          "stayed": 715,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "blocked": 8,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 9,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          644,
+          635,
+          964,
+          966,
+          76,
+          715
+        ],
+        "perform_opportunities": 76,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 58,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 690,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 2,
+          "completed_operations": 76,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 12,
+      "objective_return": 242.03200000000012,
+      "environment_return": 78.30000000000003,
+      "reward": 242.03200000000012,
+      "completion_ratio": 0.9523809523809523,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3233,
+          "cross_stage_1a": 12,
+          "stayed": 670,
+          "blocked": 17,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          842,
+          838,
+          786,
+          784,
+          80,
+          670
+        ],
+        "perform_opportunities": 80,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 61,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 640,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 80,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 13,
+      "objective_return": 251.89400000000012,
+      "environment_return": 80.90000000000006,
+      "reward": 251.89400000000012,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2763,
+          "blocked": 21,
+          "cross_stage_1a": 12,
+          "stayed": 1133,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          929,
+          917,
+          467,
+          471,
+          83,
+          1133
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 69,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 649,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 14,
+      "objective_return": 243.578,
+      "environment_return": 78.40000000000003,
+      "reward": 243.578,
+      "completion_ratio": 0.9642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2569,
+          "cross_stage_1a": 12,
+          "blocked": 26,
+          "stayed": 1324,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          839,
+          824,
+          462,
+          470,
+          81,
+          1324
+        ],
+        "perform_opportunities": 81,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 632,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 1,
+          "completed_operations": 81,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 15,
+      "objective_return": 62.30000000000002,
+      "environment_return": 20.599999999999998,
+      "reward": 62.30000000000002,
+      "completion_ratio": 0.25,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3975,
+          "cross_stage_1a": 8,
+          "blocked": 4,
+          "cross_stage_2a": 5,
+          "cross_stage_3": 6,
+          "cross_stage_1b": 1,
+          "cross_stage_2b": 1
+        },
+        "action_counts": [
+          1177,
+          1180,
+          810,
+          812,
+          21,
+          0
+        ],
+        "perform_opportunities": 21,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 17,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 766,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 4,
+          "active_n2a": 3,
+          "active_n3": 2,
+          "active_n1b": 4,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 21,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 16,
+      "objective_return": 196.0800000000001,
+      "environment_return": 64.8,
+      "reward": 196.0800000000001,
+      "completion_ratio": 0.7857142857142857,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3904,
+          "blocked": 12,
+          "cross_stage_1a": 12,
+          "stayed": 18,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 5,
+          "cross_stage_5": 5
+        },
+        "action_counts": [
+          637,
+          635,
+          1316,
+          1328,
+          66,
+          18
+        ],
+        "perform_opportunities": 66,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 55,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 695,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 6,
+          "active_n5": 0,
+          "completed_operations": 66,
+          "completed_cells": 5
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 17,
+      "objective_return": 208.31800000000015,
+      "environment_return": 67.90000000000003,
+      "reward": 208.31800000000015,
+      "completion_ratio": 0.8333333333333334,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3879,
+          "cross_stage_1a": 12,
+          "stayed": 30,
+          "blocked": 21,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 7,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          1478,
+          1476,
+          471,
+          475,
+          70,
+          30
+        ],
+        "perform_opportunities": 70,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 57,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 688,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 1,
+          "active_n4": 3,
+          "active_n5": 1,
+          "completed_operations": 70,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 18,
+      "objective_return": 233.89799999999394,
+      "environment_return": 76.79999999999998,
+      "reward": 233.89799999999394,
+      "completion_ratio": 0.9285714285714286,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2576,
+          "cross_stage_1a": 12,
+          "blocked": 12,
+          "stayed": 1334,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 10,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          503,
+          495,
+          794,
+          796,
+          78,
+          1334
+        ],
+        "perform_opportunities": 78,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 650,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 1,
+          "active_n5": 1,
+          "completed_operations": 78,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 19,
+      "objective_return": 247.7660000000002,
+      "environment_return": 80.20000000000005,
+      "reward": 247.7660000000002,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3196,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "blocked": 18,
+          "stayed": 704,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          831,
+          829,
+          777,
+          777,
+          82,
+          704
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 59,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 627,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 82,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 20,
+      "objective_return": 237.71800000000016,
+      "environment_return": 77.5,
+      "reward": 237.71800000000016,
+      "completion_ratio": 0.9404761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3880,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "blocked": 15,
+          "stayed": 26,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          1656,
+          1645,
+          298,
+          296,
+          79,
+          26
+        ],
+        "perform_opportunities": 79,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 662,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 2,
+          "completed_operations": 79,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 21,
+      "objective_return": 229.38600000000005,
+      "environment_return": 73.9,
+      "reward": 229.38600000000005,
+      "completion_ratio": 0.9047619047619048,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2503,
+          "blocked": 21,
+          "cross_stage_1a": 12,
+          "stayed": 1400,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 9,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          458,
+          460,
+          801,
+          805,
+          76,
+          1400
+        ],
+        "perform_opportunities": 76,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 60,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 685,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 2,
+          "completed_operations": 76,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 22,
+      "objective_return": 250.68200000000004,
+      "environment_return": 80.10000000000005,
+      "reward": 250.68200000000004,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2991,
+          "cross_stage_1a": 12,
+          "blocked": 29,
+          "stayed": 897,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          909,
+          901,
+          597,
+          613,
+          83,
+          897
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 70,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 591,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 23,
+      "objective_return": 245.80400000000006,
+      "environment_return": 78.90000000000005,
+      "reward": 245.80400000000006,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2688,
+          "cross_stage_1a": 12,
+          "blocked": 31,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "stayed": 1199,
+          "cross_stage_4": 11,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          922,
+          916,
+          441,
+          440,
+          82,
+          1199
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 71,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 570,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 82,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 24,
+      "objective_return": 245.50000000000017,
+      "environment_return": 78.69999999999999,
+      "reward": 245.50000000000017,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2624,
+          "cross_stage_1a": 12,
+          "stayed": 1261,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "blocked": 33,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          523,
+          520,
+          804,
+          810,
+          82,
+          1261
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 609,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 82,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 25,
+      "objective_return": 5.349999999999999,
+      "environment_return": 1.5999999999999996,
+      "reward": 5.349999999999999,
+      "completion_ratio": 0.023809523809523808,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3988,
+          "blocked": 4,
+          "cross_stage_1a": 2,
+          "stayed": 6
+        },
+        "action_counts": [
+          812,
+          802,
+          1187,
+          1191,
+          2,
+          6
+        ],
+        "perform_opportunities": 2,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 2,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 793,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 10,
+          "active_n2a": 2,
+          "active_n3": 2,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 2,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 26,
+      "objective_return": 240.1520000000001,
+      "environment_return": 78.10000000000001,
+      "reward": 240.1520000000001,
+      "completion_ratio": 0.9523809523809523,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3204,
+          "cross_stage_1a": 12,
+          "stayed": 697,
+          "blocked": 19,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          498,
+          499,
+          1111,
+          1115,
+          80,
+          697
+        ],
+        "perform_opportunities": 80,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 62,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 664,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 80,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 27,
+      "objective_return": 105.33399999999683,
+      "environment_return": 16.69999999999949,
+      "reward": 105.33399999999683,
+      "completion_ratio": 0.6309523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3222,
+          "blocked": 363,
+          "stayed": 362,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 3
+        },
+        "action_counts": [
+          1863,
+          1508,
+          106,
+          108,
+          53,
+          362
+        ],
+        "perform_opportunities": 53,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 45,
+        "first_progress_step": 14,
+        "max_no_progress_streak": 704,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 3,
+          "active_n2b": 1,
+          "active_n4": 4,
+          "active_n5": 3,
+          "completed_operations": 53,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 28,
+      "objective_return": 251.70200000000008,
+      "environment_return": 80.80000000000007,
+      "reward": 251.70200000000008,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3095,
+          "cross_stage_1a": 12,
+          "stayed": 800,
+          "blocked": 22,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1029,
+          1019,
+          535,
+          534,
+          83,
+          800
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 67,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 605,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 29,
+      "objective_return": 261.6900000000001,
+      "environment_return": 82.70000000000005,
+      "reward": 261.6900000000001,
+      "completion_ratio": 1.0,
+      "steps": 143,
+      "success": 1.0,
+      "start_positions": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 580,
+          "blocked": 13,
+          "stayed": 38,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 12
+        },
+        "action_counts": [
+          164,
+          154,
+          141,
+          134,
+          84,
+          38
+        ],
+        "perform_opportunities": 84,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 67,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 9,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 84,
+          "completed_cells": 12
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 30,
+      "objective_return": 103.15200000000475,
+      "environment_return": -1.2000000000004134,
+      "reward": 103.15200000000475,
+      "completion_ratio": 0.8214285714285714,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3191,
+          "blocked": 702,
+          "cross_stage_1a": 12,
+          "stayed": 38,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 8,
+          "cross_stage_5": 4
+        },
+        "action_counts": [
+          1156,
+          1148,
+          794,
+          795,
+          69,
+          38
+        ],
+        "perform_opportunities": 69,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 53,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 696,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 4,
+          "completed_operations": 69,
+          "completed_cells": 4
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 31,
+      "objective_return": 208.99400000000145,
+      "environment_return": 67.79999999999997,
+      "reward": 208.99400000000145,
+      "completion_ratio": 0.8452380952380952,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3206,
+          "blocked": 32,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "stayed": 691,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 9,
+          "cross_stage_5": 5
+        },
+        "action_counts": [
+          1291,
+          1299,
+          315,
+          333,
+          71,
+          691
+        ],
+        "perform_opportunities": 71,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 61,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 641,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 2,
+          "active_n5": 4,
+          "completed_operations": 71,
+          "completed_cells": 5
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 32,
+      "objective_return": 164.23799999999807,
+      "environment_return": 36.90000000000001,
+      "reward": 164.23799999999807,
+      "completion_ratio": 0.8571428571428571,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1853,
+          "blocked": 351,
+          "stayed": 1724,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 8,
+          "cross_stage_5": 5
+        },
+        "action_counts": [
+          480,
+          134,
+          797,
+          793,
+          72,
+          1724
+        ],
+        "perform_opportunities": 72,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 55,
+        "first_progress_step": 12,
+        "max_no_progress_streak": 684,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 3,
+          "active_n5": 3,
+          "completed_operations": 72,
+          "completed_cells": 5
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 33,
+      "objective_return": 162.61599999999797,
+      "environment_return": 35.79999999999997,
+      "reward": 162.61599999999797,
+      "completion_ratio": 0.8571428571428571,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2513,
+          "blocked": 362,
+          "cross_stage_1a": 12,
+          "stayed": 1053,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 8,
+          "cross_stage_5": 5
+        },
+        "action_counts": [
+          805,
+          1151,
+          461,
+          458,
+          72,
+          1053
+        ],
+        "perform_opportunities": 72,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 700,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 3,
+          "active_n5": 3,
+          "completed_operations": 72,
+          "completed_cells": 5
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 34,
+      "objective_return": 209.28599999999932,
+      "environment_return": 69.30000000000001,
+      "reward": 209.28599999999932,
+      "completion_ratio": 0.8452380952380952,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2297,
+          "cross_stage_1a": 12,
+          "stayed": 1615,
+          "blocked": 17,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 10,
+          "cross_stage_2b": 9,
+          "cross_stage_4": 9,
+          "cross_stage_5": 8
+        },
+        "action_counts": [
+          653,
+          654,
+          501,
+          506,
+          71,
+          1615
+        ],
+        "perform_opportunities": 71,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 60,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 659,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 71,
+          "completed_cells": 8
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 35,
+      "objective_return": 162.4999999999965,
+      "environment_return": 54.3,
+      "reward": 162.4999999999965,
+      "completion_ratio": 0.6547619047619048,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1735,
+          "stayed": 2203,
+          "cross_stage_1a": 12,
+          "blocked": 7,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 8,
+          "cross_stage_4": 2,
+          "cross_stage_5": 1
+        },
+        "action_counts": [
+          805,
+          794,
+          66,
+          77,
+          55,
+          2203
+        ],
+        "perform_opportunities": 55,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 48,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 725,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 4,
+          "active_n2b": 0,
+          "active_n4": 6,
+          "active_n5": 1,
+          "completed_operations": 55,
+          "completed_cells": 1
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 36,
+      "objective_return": 105.06199999999683,
+      "environment_return": 16.49999999999949,
+      "reward": 105.06199999999683,
+      "completion_ratio": 0.6309523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3215,
+          "stayed": 367,
+          "blocked": 365,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 3
+        },
+        "action_counts": [
+          1864,
+          1512,
+          104,
+          100,
+          53,
+          367
+        ],
+        "perform_opportunities": 53,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 45,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 710,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 3,
+          "active_n2b": 1,
+          "active_n4": 4,
+          "active_n5": 3,
+          "completed_operations": 53,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 37,
+      "objective_return": 249.51000000000008,
+      "environment_return": 79.30000000000003,
+      "reward": 249.51000000000008,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2554,
+          "blocked": 37,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "stayed": 1326,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          824,
+          815,
+          471,
+          481,
+          83,
+          1326
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 72,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 618,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 38,
+      "objective_return": 243.01800000000017,
+      "environment_return": 78.00000000000007,
+      "reward": 243.01800000000017,
+      "completion_ratio": 0.9642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3211,
+          "cross_stage_1a": 12,
+          "blocked": 30,
+          "stayed": 678,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          979,
+          974,
+          645,
+          643,
+          81,
+          678
+        ],
+        "perform_opportunities": 81,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 66,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 647,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 1,
+          "completed_operations": 81,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 39,
+      "objective_return": 21.760000000000648,
+      "environment_return": -45.900000000000624,
+      "reward": 21.760000000000648,
+      "completion_ratio": 0.7261904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2508,
+          "blocked": 1069,
+          "stayed": 362,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 8,
+          "cross_stage_4": 4,
+          "cross_stage_5": 3
+        },
+        "action_counts": [
+          1165,
+          1160,
+          447,
+          805,
+          61,
+          362
+        ],
+        "perform_opportunities": 61,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 47,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 701,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 3,
+          "active_n4": 4,
+          "active_n5": 1,
+          "completed_operations": 61,
+          "completed_cells": 3
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 40,
+      "objective_return": 111.02399999999648,
+      "environment_return": 19.499999999999496,
+      "reward": 111.02399999999648,
+      "completion_ratio": 0.6547619047619048,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3235,
+          "stayed": 355,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "blocked": 355,
+          "cross_stage_3": 11,
+          "cross_stage_1b": 9,
+          "cross_stage_2b": 6,
+          "cross_stage_4": 3,
+          "cross_stage_5": 3
+        },
+        "action_counts": [
+          469,
+          808,
+          1154,
+          1159,
+          55,
+          355
+        ],
+        "perform_opportunities": 55,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 50,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 687,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 2,
+          "active_n2b": 3,
+          "active_n4": 3,
+          "active_n5": 0,
+          "completed_operations": 55,
+          "completed_cells": 3
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 41,
+      "objective_return": 5.7700000000000005,
+      "environment_return": 1.9,
+      "reward": 5.7700000000000005,
+      "completion_ratio": 0.023809523809523808,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3997,
+          "cross_stage_1a": 2,
+          "blocked": 1
+        },
+        "action_counts": [
+          1596,
+          1585,
+          410,
+          407,
+          2,
+          0
+        ],
+        "perform_opportunities": 2,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 2,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 794,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 10,
+          "active_n2a": 2,
+          "active_n3": 2,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 2,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 42,
+      "objective_return": 222.18399999999366,
+      "environment_return": 73.00000000000003,
+      "reward": 222.18399999999366,
+      "completion_ratio": 0.8809523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2525,
+          "blocked": 10,
+          "cross_stage_1a": 12,
+          "stayed": 1391,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 9,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          472,
+          467,
+          793,
+          803,
+          74,
+          1391
+        ],
+        "perform_opportunities": 74,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 52,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 692,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 2,
+          "active_n5": 3,
+          "completed_operations": 74,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 43,
+      "objective_return": 163.46600000000666,
+      "environment_return": 54.999999999999986,
+      "reward": 163.46600000000666,
+      "completion_ratio": 0.6666666666666666,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2495,
+          "cross_stage_1a": 12,
+          "stayed": 1439,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 11,
+          "blocked": 10,
+          "cross_stage_1b": 10,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 2,
+          "cross_stage_5": 2
+        },
+        "action_counts": [
+          86,
+          88,
+          1159,
+          1172,
+          56,
+          1439
+        ],
+        "perform_opportunities": 56,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 44,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 716,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 1,
+          "active_n2b": 3,
+          "active_n4": 5,
+          "active_n5": 0,
+          "completed_operations": 56,
+          "completed_cells": 2
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 44,
+      "objective_return": 252.4020000000001,
+      "environment_return": 81.20000000000003,
+      "reward": 252.4020000000001,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2799,
+          "stayed": 1100,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "blocked": 18,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1071,
+          1072,
+          331,
+          343,
+          83,
+          1100
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 654,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 45,
+      "objective_return": 242.04800000000012,
+      "environment_return": 78.40000000000003,
+      "reward": 242.04800000000012,
+      "completion_ratio": 0.9523809523809523,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2541,
+          "blocked": 16,
+          "cross_stage_1a": 12,
+          "stayed": 1363,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          498,
+          486,
+          782,
+          791,
+          80,
+          1363
+        ],
+        "perform_opportunities": 80,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 66,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 670,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 80,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 46,
+      "objective_return": 190.79000000000428,
+      "environment_return": 45.600000000000506,
+      "reward": 190.79000000000428,
+      "completion_ratio": 0.9404761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2591,
+          "stayed": 996,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "blocked": 334,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 8
+        },
+        "action_counts": [
+          971,
+          634,
+          663,
+          657,
+          79,
+          996
+        ],
+        "perform_opportunities": 79,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 639,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 3,
+          "completed_operations": 79,
+          "completed_cells": 8
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 47,
+      "objective_return": 73.634,
+      "environment_return": 24.199999999999996,
+      "reward": 73.634,
+      "completion_ratio": 0.2976190476190476,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3961,
+          "blocked": 8,
+          "cross_stage_1a": 12,
+          "stayed": 6,
+          "cross_stage_3": 6,
+          "cross_stage_2a": 5,
+          "cross_stage_1b": 1,
+          "cross_stage_2b": 1
+        },
+        "action_counts": [
+          1176,
+          1175,
+          807,
+          811,
+          25,
+          6
+        ],
+        "perform_opportunities": 25,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 20,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 756,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 7,
+          "active_n3": 6,
+          "active_n1b": 2,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 25,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 48,
+      "objective_return": 188.62799999999888,
+      "environment_return": 52.00000000000023,
+      "reward": 188.62799999999888,
+      "completion_ratio": 0.8690476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2856,
+          "cross_stage_1a": 12,
+          "blocked": 210,
+          "stayed": 861,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 10,
+          "cross_stage_5": 5
+        },
+        "action_counts": [
+          1010,
+          1002,
+          433,
+          621,
+          73,
+          861
+        ],
+        "perform_opportunities": 73,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 635,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 5,
+          "completed_operations": 73,
+          "completed_cells": 5
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 49,
+      "objective_return": 171.95199999999843,
+      "environment_return": 50.899999999999814,
+      "reward": 171.95199999999843,
+      "completion_ratio": 0.7619047619047619,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3470,
+          "cross_stage_1a": 12,
+          "stayed": 335,
+          "blocked": 131,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 11,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 5,
+          "cross_stage_5": 4
+        },
+        "action_counts": [
+          617,
+          736,
+          1123,
+          1125,
+          64,
+          335
+        ],
+        "perform_opportunities": 64,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 44,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 643,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 5,
+          "active_n5": 1,
+          "completed_operations": 64,
+          "completed_cells": 4
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 50,
+      "objective_return": 158.05199999999996,
+      "environment_return": 51.499999999999986,
+      "reward": 158.05199999999996,
+      "completion_ratio": 0.6428571428571429,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3904,
+          "blocked": 25,
+          "cross_stage_1a": 12,
+          "stayed": 17,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 10,
+          "cross_stage_1b": 9,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 4,
+          "cross_stage_5": 1
+        },
+        "action_counts": [
+          647,
+          646,
+          1317,
+          1319,
+          54,
+          17
+        ],
+        "perform_opportunities": 54,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 41,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 697,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 1,
+          "active_n1b": 1,
+          "active_n2b": 2,
+          "active_n4": 3,
+          "active_n5": 3,
+          "completed_operations": 54,
+          "completed_cells": 1
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 51,
+      "objective_return": 231.01600000000008,
+      "environment_return": 75.00000000000001,
+      "reward": 231.01600000000008,
+      "completion_ratio": 0.9047619047619048,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3196,
+          "blocked": 10,
+          "stayed": 718,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 9,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          643,
+          639,
+          966,
+          958,
+          76,
+          718
+        ],
+        "perform_opportunities": 76,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 58,
+        "first_progress_step": 6,
+        "max_no_progress_streak": 692,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 2,
+          "completed_operations": 76,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 52,
+      "objective_return": 122.18800000000002,
+      "environment_return": 40.5,
+      "reward": 122.18800000000002,
+      "completion_ratio": 0.4880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3953,
+          "cross_stage_1a": 11,
+          "cross_stage_2a": 10,
+          "cross_stage_3": 8,
+          "blocked": 5,
+          "stayed": 1,
+          "cross_stage_1b": 6,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 2
+        },
+        "action_counts": [
+          1177,
+          1170,
+          801,
+          810,
+          41,
+          1
+        ],
+        "perform_opportunities": 41,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 30,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 747,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 1,
+          "active_n2a": 1,
+          "active_n3": 3,
+          "active_n1b": 2,
+          "active_n2b": 2,
+          "active_n4": 2,
+          "active_n5": 2,
+          "completed_operations": 41,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 53,
+      "objective_return": 221.71599999999367,
+      "environment_return": 72.79999999999998,
+      "reward": 221.71599999999367,
+      "completion_ratio": 0.8809523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3213,
+          "blocked": 12,
+          "cross_stage_1a": 12,
+          "stayed": 701,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 9,
+          "cross_stage_4": 9,
+          "cross_stage_5": 8
+        },
+        "action_counts": [
+          1328,
+          1334,
+          279,
+          284,
+          74,
+          701
+        ],
+        "perform_opportunities": 74,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 60,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 678,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 3,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 74,
+          "completed_cells": 8
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 54,
+      "objective_return": 250.09400000000008,
+      "environment_return": 80.70000000000003,
+      "reward": 250.09400000000008,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2862,
+          "blocked": 13,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "stayed": 1043,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          1092,
+          1086,
+          347,
+          350,
+          82,
+          1043
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 69,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 668,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 2,
+          "completed_operations": 82,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 55,
+      "objective_return": 214.92200000000017,
+      "environment_return": 69.29999999999998,
+      "reward": 214.92200000000017,
+      "completion_ratio": 0.8690476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3857,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "blocked": 37,
+          "stayed": 33,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 10,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          1289,
+          1279,
+          657,
+          669,
+          73,
+          33
+        ],
+        "perform_opportunities": 73,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 621,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 3,
+          "completed_operations": 73,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 56,
+      "objective_return": 23.630000000000003,
+      "environment_return": 7.7,
+      "reward": 23.630000000000003,
+      "completion_ratio": 0.09523809523809523,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3987,
+          "blocked": 3,
+          "stayed": 2,
+          "cross_stage_1a": 7,
+          "cross_stage_3": 1
+        },
+        "action_counts": [
+          406,
+          404,
+          1589,
+          1591,
+          8,
+          2
+        ],
+        "perform_opportunities": 8,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 7,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 781,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 5,
+          "active_n2a": 7,
+          "active_n3": 6,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 8,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 57,
+      "objective_return": 115.25600000000351,
+      "environment_return": 38.8,
+      "reward": 115.25600000000351,
+      "completion_ratio": 0.4642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3206,
+          "blocked": 2,
+          "stayed": 753,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 10,
+          "cross_stage_1b": 6
+        },
+        "action_counts": [
+          1178,
+          1172,
+          426,
+          432,
+          39,
+          753
+        ],
+        "perform_opportunities": 39,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 33,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 751,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 1,
+          "active_n1b": 4,
+          "active_n2b": 6,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 39,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 58,
+      "objective_return": 77.054,
+      "environment_return": 25.399999999999995,
+      "reward": 77.054,
+      "completion_ratio": 0.30952380952380953,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3965,
+          "cross_stage_1a": 12,
+          "stayed": 3,
+          "cross_stage_3": 4,
+          "blocked": 6,
+          "cross_stage_2a": 10
+        },
+        "action_counts": [
+          805,
+          801,
+          1181,
+          1184,
+          26,
+          3
+        ],
+        "perform_opportunities": 26,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 21,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 753,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 8,
+          "active_n1b": 2,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 26,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 59,
+      "objective_return": 133.04799999999994,
+      "environment_return": 43.699999999999996,
+      "reward": 133.04799999999994,
+      "completion_ratio": 0.5238095238095238,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3950,
+          "cross_stage_1a": 12,
+          "blocked": 3,
+          "stayed": 3,
+          "cross_stage_2a": 10,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 6,
+          "cross_stage_2b": 4
+        },
+        "action_counts": [
+          1000,
+          988,
+          982,
+          983,
+          44,
+          3
+        ],
+        "perform_opportunities": 44,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 38,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 747,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 0,
+          "active_n1b": 4,
+          "active_n2b": 2,
+          "active_n4": 4,
+          "active_n5": 0,
+          "completed_operations": 44,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 60,
+      "objective_return": 247.43200000000002,
+      "environment_return": 78.90000000000009,
+      "reward": 247.43200000000002,
+      "completion_ratio": 0.9761904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2619,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "blocked": 31,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "stayed": 1268,
+          "cross_stage_4": 12,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          1125,
+          1111,
+          206,
+          208,
+          82,
+          1268
+        ],
+        "perform_opportunities": 82,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 69,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 597,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 2,
+          "completed_operations": 82,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 61,
+      "objective_return": 203.36600000000018,
+      "environment_return": 66.60000000000001,
+      "reward": 203.36600000000018,
+      "completion_ratio": 0.8095238095238095,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3898,
+          "cross_stage_1a": 12,
+          "stayed": 20,
+          "blocked": 14,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 8,
+          "cross_stage_5": 3
+        },
+        "action_counts": [
+          1160,
+          1153,
+          797,
+          802,
+          68,
+          20
+        ],
+        "perform_opportunities": 68,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 57,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 688,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 1,
+          "active_n4": 2,
+          "active_n5": 5,
+          "completed_operations": 68,
+          "completed_cells": 3
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 62,
+      "objective_return": 183.17799999999997,
+      "environment_return": 60.09999999999999,
+      "reward": 183.17799999999997,
+      "completion_ratio": 0.7261904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3924,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "blocked": 9,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 9,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 5,
+          "stayed": 6,
+          "cross_stage_5": 4
+        },
+        "action_counts": [
+          1510,
+          1512,
+          454,
+          457,
+          61,
+          6
+        ],
+        "perform_opportunities": 61,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 51,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 709,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 3,
+          "active_n2b": 2,
+          "active_n4": 2,
+          "active_n5": 1,
+          "completed_operations": 61,
+          "completed_cells": 4
+        },
+        "terminal_robot_positions": [
+          [
+            6,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 63,
+      "objective_return": 66.17200000000302,
+      "environment_return": -13.900000000000515,
+      "reward": 66.17200000000302,
+      "completion_ratio": 0.6904761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3207,
+          "cross_stage_1a": 12,
+          "stayed": 16,
+          "blocked": 719,
+          "cross_stage_3": 9,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 8,
+          "cross_stage_4": 6,
+          "cross_stage_5": 3
+        },
+        "action_counts": [
+          1154,
+          800,
+          815,
+          1157,
+          58,
+          16
+        ],
+        "perform_opportunities": 58,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 51,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 695,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 3,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 2,
+          "active_n5": 3,
+          "completed_operations": 58,
+          "completed_cells": 3
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 64,
+      "objective_return": 261.60400000000016,
+      "environment_return": 82.6,
+      "reward": 261.60400000000016,
+      "completion_ratio": 1.0,
+      "steps": 137,
+      "success": 1.0,
+      "start_positions": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 549,
+          "blocked": 14,
+          "stayed": 38,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 12
+        },
+        "action_counts": [
+          150,
+          149,
+          133,
+          131,
+          84,
+          38
+        ],
+        "perform_opportunities": 84,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 59,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 7,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 84,
+          "completed_cells": 12
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 65,
+      "objective_return": 50.600000000000016,
+      "environment_return": 16.799999999999997,
+      "reward": 50.600000000000016,
+      "completion_ratio": 0.20238095238095238,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3981,
+          "cross_stage_1a": 10,
+          "cross_stage_2a": 3,
+          "cross_stage_3": 4,
+          "blocked": 2
+        },
+        "action_counts": [
+          998,
+          989,
+          997,
+          999,
+          17,
+          0
+        ],
+        "perform_opportunities": 17,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 15,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 776,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 2,
+          "active_n2a": 7,
+          "active_n3": 6,
+          "active_n1b": 2,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 17,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 66,
+      "objective_return": 167.95600000000422,
+      "environment_return": 38.400000000000006,
+      "reward": 167.95600000000422,
+      "completion_ratio": 0.8690476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3214,
+          "blocked": 346,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 11,
+          "stayed": 367,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 10,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          1150,
+          1466,
+          470,
+          474,
+          73,
+          367
+        ],
+        "perform_opportunities": 73,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 53,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 649,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 4,
+          "completed_operations": 73,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 67,
+      "objective_return": 153.16800000000453,
+      "environment_return": 33.599999999999795,
+      "reward": 153.16800000000453,
+      "completion_ratio": 0.8214285714285714,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3210,
+          "cross_stage_1a": 12,
+          "blocked": 354,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 11,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 9,
+          "stayed": 367,
+          "cross_stage_4": 8,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          815,
+          815,
+          1140,
+          794,
+          69,
+          367
+        ],
+        "perform_opportunities": 69,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 53,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 691,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 2,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 69,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 68,
+      "objective_return": 130.21999999999642,
+      "environment_return": 43.79999999999998,
+      "reward": 130.21999999999642,
+      "completion_ratio": 0.5357142857142857,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2467,
+          "stayed": 1476,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 11,
+          "blocked": 12,
+          "cross_stage_1b": 7,
+          "cross_stage_2b": 4
+        },
+        "action_counts": [
+          73,
+          65,
+          1166,
+          1175,
+          45,
+          1476
+        ],
+        "perform_opportunities": 45,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 35,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 737,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 3,
+          "active_n2b": 3,
+          "active_n4": 4,
+          "active_n5": 0,
+          "completed_operations": 45,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 69,
+      "objective_return": 215.1900000000001,
+      "environment_return": 69.39999999999999,
+      "reward": 215.1900000000001,
+      "completion_ratio": 0.8452380952380952,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3220,
+          "cross_stage_1a": 12,
+          "blocked": 16,
+          "stayed": 693,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 8,
+          "cross_stage_5": 3
+        },
+        "action_counts": [
+          1153,
+          1151,
+          469,
+          463,
+          71,
+          693
+        ],
+        "perform_opportunities": 71,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 60,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 680,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 4,
+          "active_n5": 5,
+          "completed_operations": 71,
+          "completed_cells": 3
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 70,
+      "objective_return": 120.66599999999546,
+      "environment_return": 21.899999999999494,
+      "reward": 120.66599999999546,
+      "completion_ratio": 0.6904761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3225,
+          "cross_stage_1a": 12,
+          "blocked": 361,
+          "stayed": 356,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 10,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 8,
+          "cross_stage_4": 6,
+          "cross_stage_5": 2
+        },
+        "action_counts": [
+          484,
+          810,
+          1152,
+          1140,
+          58,
+          356
+        ],
+        "perform_opportunities": 58,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 46,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 672,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 0,
+          "active_n1b": 2,
+          "active_n2b": 0,
+          "active_n4": 2,
+          "active_n5": 4,
+          "completed_operations": 58,
+          "completed_cells": 2
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 71,
+      "objective_return": 253.38000000000005,
+      "environment_return": 81.90000000000002,
+      "reward": 253.38000000000005,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2554,
+          "cross_stage_1a": 12,
+          "blocked": 11,
+          "stayed": 1352,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          818,
+          813,
+          463,
+          471,
+          83,
+          1352
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 65,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 668,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 72,
+      "objective_return": 153.04600000000002,
+      "environment_return": 50.09999999999997,
+      "reward": 153.04600000000002,
+      "completion_ratio": 0.6190476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3924,
+          "cross_stage_1a": 12,
+          "blocked": 19,
+          "cross_stage_3": 10,
+          "cross_stage_2a": 9,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 5,
+          "stayed": 5,
+          "cross_stage_5": 1
+        },
+        "action_counts": [
+          1157,
+          1155,
+          815,
+          816,
+          52,
+          5
+        ],
+        "perform_opportunities": 52,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 43,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 711,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 3,
+          "active_n3": 2,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 2,
+          "active_n5": 4,
+          "completed_operations": 52,
+          "completed_cells": 1
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 73,
+      "objective_return": 163.49399999999807,
+      "environment_return": 37.500000000000036,
+      "reward": 163.49399999999807,
+      "completion_ratio": 0.8690476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2531,
+          "cross_stage_1a": 12,
+          "blocked": 355,
+          "stayed": 1041,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 10,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          476,
+          130,
+          1140,
+          1140,
+          73,
+          1041
+        ],
+        "perform_opportunities": 73,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 55,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 676,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 3,
+          "completed_operations": 73,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 74,
+      "objective_return": 133.90399999999636,
+      "environment_return": 45.29999999999999,
+      "reward": 133.90399999999636,
+      "completion_ratio": 0.5476190476190477,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2464,
+          "cross_stage_1a": 11,
+          "stayed": 1483,
+          "cross_stage_3": 10,
+          "cross_stage_2a": 11,
+          "blocked": 7,
+          "cross_stage_1b": 8,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 2
+        },
+        "action_counts": [
+          423,
+          422,
+          810,
+          816,
+          46,
+          1483
+        ],
+        "perform_opportunities": 46,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 36,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 738,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 1,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 2,
+          "active_n2b": 4,
+          "active_n4": 2,
+          "active_n5": 2,
+          "completed_operations": 46,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 75,
+      "objective_return": 161.4139999999981,
+      "environment_return": 36.09999999999997,
+      "reward": 161.4139999999981,
+      "completion_ratio": 0.8571428571428571,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1846,
+          "blocked": 359,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "cross_stage_2b": 11,
+          "stayed": 1723,
+          "cross_stage_4": 8,
+          "cross_stage_5": 6
+        },
+        "action_counts": [
+          474,
+          815,
+          458,
+          458,
+          72,
+          1723
+        ],
+        "perform_opportunities": 72,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 58,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 680,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 2,
+          "completed_operations": 72,
+          "completed_cells": 6
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 76,
+      "objective_return": 109.27600000000164,
+      "environment_return": 36.79999999999999,
+      "reward": 109.27600000000164,
+      "completion_ratio": 0.4523809523809524,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2498,
+          "cross_stage_1a": 12,
+          "blocked": 12,
+          "cross_stage_3": 8,
+          "stayed": 1452,
+          "cross_stage_2a": 10,
+          "cross_stage_1b": 4,
+          "cross_stage_2b": 3,
+          "cross_stage_4": 1
+        },
+        "action_counts": [
+          87,
+          76,
+          1172,
+          1175,
+          38,
+          1452
+        ],
+        "perform_opportunities": 38,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 34,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 725,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 4,
+          "active_n1b": 3,
+          "active_n2b": 1,
+          "active_n4": 2,
+          "active_n5": 1,
+          "completed_operations": 38,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 77,
+      "objective_return": 223.30000000000013,
+      "environment_return": 74.10000000000001,
+      "reward": 223.30000000000013,
+      "completion_ratio": 0.8928571428571429,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3193,
+          "cross_stage_1a": 12,
+          "stayed": 723,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 11,
+          "blocked": 9,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          823,
+          812,
+          781,
+          786,
+          75,
+          723
+        ],
+        "perform_opportunities": 75,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 62,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 698,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 4,
+          "completed_operations": 75,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 78,
+      "objective_return": 95.77399999999753,
+      "environment_return": 13.399999999999514,
+      "reward": 95.77399999999753,
+      "completion_ratio": 0.6071428571428571,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3199,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 11,
+          "cross_stage_3": 11,
+          "blocked": 376,
+          "cross_stage_1b": 9,
+          "stayed": 374,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 2,
+          "cross_stage_5": 2
+        },
+        "action_counts": [
+          442,
+          75,
+          1528,
+          1530,
+          51,
+          374
+        ],
+        "perform_opportunities": 51,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 39,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 725,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 1,
+          "active_n1b": 2,
+          "active_n2b": 5,
+          "active_n4": 2,
+          "active_n5": 0,
+          "completed_operations": 51,
+          "completed_cells": 2
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 79,
+      "objective_return": 125.9659999999981,
+      "environment_return": 24.49999999999949,
+      "reward": 125.9659999999981,
+      "completion_ratio": 0.7261904761904762,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2503,
+          "cross_stage_1a": 12,
+          "blocked": 365,
+          "stayed": 1071,
+          "cross_stage_3": 10,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 9,
+          "cross_stage_2b": 9,
+          "cross_stage_4": 6,
+          "cross_stage_5": 4
+        },
+        "action_counts": [
+          811,
+          451,
+          797,
+          809,
+          61,
+          1071
+        ],
+        "perform_opportunities": 61,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 47,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 686,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 2,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 3,
+          "active_n5": 2,
+          "completed_operations": 61,
+          "completed_cells": 4
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 80,
+      "objective_return": 82.12999999999995,
+      "environment_return": 26.799999999999986,
+      "reward": 82.12999999999995,
+      "completion_ratio": 0.3333333333333333,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3952,
+          "cross_stage_1a": 12,
+          "stayed": 8,
+          "blocked": 12,
+          "cross_stage_2a": 9,
+          "cross_stage_3": 3,
+          "cross_stage_1b": 2,
+          "cross_stage_2b": 2
+        },
+        "action_counts": [
+          447,
+          438,
+          1542,
+          1537,
+          28,
+          8
+        ],
+        "perform_opportunities": 28,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 25,
+        "first_progress_step": 3,
+        "max_no_progress_streak": 723,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 3,
+          "active_n3": 9,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 2,
+          "active_n5": 0,
+          "completed_operations": 28,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 81,
+      "objective_return": 251.91000000000014,
+      "environment_return": 80.90000000000006,
+      "reward": 251.91000000000014,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "stayed": 1128,
+          "moved": 2768,
+          "blocked": 21,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          930,
+          919,
+          472,
+          468,
+          83,
+          1128
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 69,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 645,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 82,
+      "objective_return": 117.60400000000159,
+      "environment_return": 39.29999999999999,
+      "reward": 117.60400000000159,
+      "completion_ratio": 0.47619047619047616,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1745,
+          "blocked": 7,
+          "cross_stage_1a": 12,
+          "stayed": 2208,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 8,
+          "cross_stage_1b": 7,
+          "cross_stage_2b": 1
+        },
+        "action_counts": [
+          803,
+          800,
+          70,
+          79,
+          40,
+          2208
+        ],
+        "perform_opportunities": 40,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 30,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 735,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 4,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 6,
+          "active_n4": 1,
+          "active_n5": 0,
+          "completed_operations": 40,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 83,
+      "objective_return": 240.90799999999425,
+      "environment_return": 78.40000000000002,
+      "reward": 240.90799999999425,
+      "completion_ratio": 0.9642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2610,
+          "blocked": 26,
+          "stayed": 1283,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          876,
+          849,
+          456,
+          455,
+          81,
+          1283
+        ],
+        "perform_opportunities": 81,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 63,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 640,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 1,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 81,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 84,
+      "objective_return": 220.048,
+      "environment_return": 71.60000000000002,
+      "reward": 220.048,
+      "completion_ratio": 0.8809523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3237,
+          "cross_stage_1a": 12,
+          "blocked": 24,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "stayed": 665,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 9,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          1029,
+          1019,
+          604,
+          609,
+          74,
+          665
+        ],
+        "perform_opportunities": 74,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 62,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 638,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 2,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 74,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 85,
+      "objective_return": 101.78400000000228,
+      "environment_return": 15.3999999999995,
+      "reward": 101.78400000000228,
+      "completion_ratio": 0.6190476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2486,
+          "blocked": 366,
+          "cross_stage_1a": 12,
+          "stayed": 1096,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 9,
+          "cross_stage_1b": 9,
+          "cross_stage_2b": 6,
+          "cross_stage_4": 4
+        },
+        "action_counts": [
+          807,
+          440,
+          802,
+          803,
+          52,
+          1096
+        ],
+        "perform_opportunities": 52,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 44,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 727,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 3,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 3,
+          "active_n4": 2,
+          "active_n5": 4,
+          "completed_operations": 52,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            6,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 86,
+      "objective_return": 171.86799999999477,
+      "environment_return": 39.100000000000186,
+      "reward": 171.86799999999477,
+      "completion_ratio": 0.8809523809523809,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3220,
+          "cross_stage_1a": 12,
+          "stayed": 357,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "blocked": 349,
+          "cross_stage_2b": 10,
+          "cross_stage_4": 9,
+          "cross_stage_5": 7
+        },
+        "action_counts": [
+          812,
+          467,
+          1144,
+          1146,
+          74,
+          357
+        ],
+        "perform_opportunities": 74,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 56,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 689,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 2,
+          "active_n4": 1,
+          "active_n5": 2,
+          "completed_operations": 74,
+          "completed_cells": 7
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 87,
+      "objective_return": -118.58999999999921,
+      "environment_return": -79.09999999999978,
+      "reward": -118.58999999999921,
+      "completion_ratio": 0.0,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3209,
+          "blocked": 791
+        },
+        "action_counts": [
+          1202,
+          1201,
+          798,
+          799,
+          0,
+          0
+        ],
+        "perform_opportunities": 0,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 0,
+        "first_progress_step": null,
+        "max_no_progress_streak": 800,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 12,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 0,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 88,
+      "objective_return": 243.73999999999998,
+      "environment_return": 78.50000000000006,
+      "reward": 243.73999999999998,
+      "completion_ratio": 0.9642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3203,
+          "cross_stage_1a": 12,
+          "stayed": 691,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "blocked": 25,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 11,
+          "cross_stage_5": 10
+        },
+        "action_counts": [
+          645,
+          643,
+          972,
+          968,
+          81,
+          691
+        ],
+        "perform_opportunities": 81,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 63,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 649,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 1,
+          "active_n5": 1,
+          "completed_operations": 81,
+          "completed_cells": 10
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 89,
+      "objective_return": 127.46599999999997,
+      "environment_return": 41.99999999999999,
+      "reward": 127.46599999999997,
+      "completion_ratio": 0.5119047619047619,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3940,
+          "cross_stage_1a": 12,
+          "blocked": 10,
+          "stayed": 7,
+          "cross_stage_3": 10,
+          "cross_stage_2a": 11,
+          "cross_stage_1b": 5,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 1
+        },
+        "action_counts": [
+          1162,
+          1158,
+          809,
+          821,
+          43,
+          7
+        ],
+        "perform_opportunities": 43,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 35,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 733,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 1,
+          "active_n3": 2,
+          "active_n1b": 5,
+          "active_n2b": 1,
+          "active_n4": 3,
+          "active_n5": 1,
+          "completed_operations": 43,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 90,
+      "objective_return": 140.52400000000006,
+      "environment_return": 46.8,
+      "reward": 140.52400000000006,
+      "completion_ratio": 0.5595238095238095,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3943,
+          "cross_stage_1a": 12,
+          "stayed": 8,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 11,
+          "blocked": 2,
+          "cross_stage_1b": 7,
+          "cross_stage_2b": 4,
+          "cross_stage_4": 1
+        },
+        "action_counts": [
+          802,
+          802,
+          1170,
+          1171,
+          47,
+          8
+        ],
+        "perform_opportunities": 47,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 41,
+        "first_progress_step": 4,
+        "max_no_progress_streak": 736,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 1,
+          "active_n1b": 4,
+          "active_n2b": 3,
+          "active_n4": 3,
+          "active_n5": 1,
+          "completed_operations": 47,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 91,
+      "objective_return": 230.60400000000055,
+      "environment_return": 75.5,
+      "reward": 230.60400000000055,
+      "completion_ratio": 0.9285714285714286,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2706,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 11,
+          "blocked": 25,
+          "stayed": 1191,
+          "cross_stage_2b": 11,
+          "cross_stage_4": 11,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          1078,
+          1070,
+          288,
+          295,
+          78,
+          1191
+        ],
+        "perform_opportunities": 78,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 654,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 1,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 2,
+          "completed_operations": 78,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 92,
+      "objective_return": 152.9519999999965,
+      "environment_return": 50.89999999999999,
+      "reward": 152.9519999999965,
+      "completion_ratio": 0.6190476190476191,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 1797,
+          "cross_stage_1a": 12,
+          "blocked": 11,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 10,
+          "stayed": 2140,
+          "cross_stage_1b": 10,
+          "cross_stage_2b": 7,
+          "cross_stage_4": 1
+        },
+        "action_counts": [
+          811,
+          802,
+          96,
+          99,
+          52,
+          2140
+        ],
+        "perform_opportunities": 52,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 46,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 712,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 3,
+          "active_n4": 6,
+          "active_n5": 1,
+          "completed_operations": 52,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 93,
+      "objective_return": 262.7980000000001,
+      "environment_return": 83.40000000000003,
+      "reward": 262.7980000000001,
+      "completion_ratio": 1.0,
+      "steps": 129,
+      "success": 1.0,
+      "start_positions": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 504,
+          "cross_stage_1a": 12,
+          "stayed": 51,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 12,
+          "blocked": 6
+        },
+        "action_counts": [
+          130,
+          127,
+          122,
+          131,
+          84,
+          51
+        ],
+        "perform_opportunities": 84,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 13,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 84,
+          "completed_cells": 12
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 94,
+      "objective_return": 237.722,
+      "environment_return": 76.39999999999999,
+      "reward": 237.722,
+      "completion_ratio": 0.9404761904761905,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3211,
+          "blocked": 26,
+          "stayed": 684,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 10,
+          "cross_stage_5": 9
+        },
+        "action_counts": [
+          925,
+          926,
+          695,
+          691,
+          79,
+          684
+        ],
+        "perform_opportunities": 79,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 64,
+        "first_progress_step": 8,
+        "max_no_progress_streak": 640,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 2,
+          "active_n5": 1,
+          "completed_operations": 79,
+          "completed_cells": 9
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 95,
+      "objective_return": 114.91400000000351,
+      "environment_return": 38.6,
+      "reward": 114.91400000000351,
+      "completion_ratio": 0.4642857142857143,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3202,
+          "blocked": 4,
+          "stayed": 755,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 11,
+          "cross_stage_2a": 10,
+          "cross_stage_1b": 6
+        },
+        "action_counts": [
+          1178,
+          1171,
+          427,
+          430,
+          39,
+          755
+        ],
+        "perform_opportunities": 39,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 33,
+        "first_progress_step": 7,
+        "max_no_progress_streak": 752,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 2,
+          "active_n3": 1,
+          "active_n1b": 4,
+          "active_n2b": 6,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 39,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 96,
+      "objective_return": 254.0860000000001,
+      "environment_return": 82.30000000000001,
+      "reward": 254.0860000000001,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2820,
+          "cross_stage_1a": 12,
+          "blocked": 7,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_1b": 12,
+          "stayed": 1090,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1070,
+          1065,
+          347,
+          345,
+          83,
+          1090
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 66,
+        "first_progress_step": 5,
+        "max_no_progress_streak": 649,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 97,
+      "objective_return": 50.51000000000001,
+      "environment_return": 16.7,
+      "reward": 50.51000000000001,
+      "completion_ratio": 0.20238095238095238,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3980,
+          "cross_stage_1a": 10,
+          "blocked": 3,
+          "cross_stage_2a": 3,
+          "cross_stage_3": 4
+        },
+        "action_counts": [
+          992,
+          991,
+          997,
+          1003,
+          17,
+          0
+        ],
+        "perform_opportunities": 17,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 15,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 776,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 2,
+          "active_n2a": 7,
+          "active_n3": 6,
+          "active_n1b": 2,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 17,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 98,
+      "objective_return": 252.47600000000014,
+      "environment_return": 81.30000000000007,
+      "reward": 252.47600000000014,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 2767,
+          "cross_stage_1a": 12,
+          "cross_stage_2a": 12,
+          "cross_stage_3": 12,
+          "stayed": 1133,
+          "blocked": 17,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          933,
+          922,
+          464,
+          465,
+          83,
+          1133
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 68,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 650,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 99,
+      "objective_return": -59.789999999999615,
+      "environment_return": -39.9000000000003,
+      "reward": -59.789999999999615,
+      "completion_ratio": 0.0,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3204,
+          "blocked": 399,
+          "stayed": 397
+        },
+        "action_counts": [
+          1600,
+          1592,
+          8,
+          403,
+          0,
+          397
+        ],
+        "perform_opportunities": 0,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 0,
+        "first_progress_step": null,
+        "max_no_progress_streak": 800,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 12,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 0,
+          "completed_operations": 0,
+          "completed_cells": 0
+        },
+        "terminal_robot_positions": [
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 100,
+      "objective_return": 251.386,
+      "environment_return": 80.6,
+      "reward": 251.386,
+      "completion_ratio": 0.9880952380952381,
+      "steps": 800,
+      "success": 0.0,
+      "start_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "diagnostics": {
+        "status_counts": {
+          "moved": 3099,
+          "cross_stage_1a": 12,
+          "cross_stage_3": 12,
+          "cross_stage_2a": 12,
+          "blocked": 24,
+          "cross_stage_1b": 12,
+          "cross_stage_2b": 12,
+          "stayed": 794,
+          "cross_stage_4": 12,
+          "cross_stage_5": 11
+        },
+        "action_counts": [
+          1032,
+          1020,
+          531,
+          540,
+          83,
+          794
+        ],
+        "perform_opportunities": 83,
+        "missed_perform_opportunities": 0,
+        "progress_steps": 74,
+        "first_progress_step": 2,
+        "max_no_progress_streak": 640,
+        "cycle_breaks": 0,
+        "cycle_break_events": [],
+        "terminal_stage_counts": {
+          "active_n1a": 0,
+          "active_n2a": 0,
+          "active_n3": 0,
+          "active_n1b": 0,
+          "active_n2b": 0,
+          "active_n4": 0,
+          "active_n5": 1,
+          "completed_operations": 83,
+          "completed_cells": 11
+        },
+        "terminal_robot_positions": [
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "mean_completion_ratio": 0.7398809523809524,
+    "std_completion_ratio": 0.27318964511772126,
+    "success_rate": 0.03,
+    "mean_steps": 780.09,
+    "std_steps": 113.21740988028299,
+    "mean_objective_return": 170.62019999999973,
+    "std_objective_return": 81.40967561930195,
+    "mean_environment_return": 50.30699999999995,
+    "std_environment_return": 32.775470263598145,
+    "mean_reward": 170.62019999999973,
+    "std_reward": 81.40967561930195
+  },
+  "diagnostic_summary": {
+    "mean_stay_fraction": 0.1789544107314346,
+    "mean_blocked_fraction": 0.03000422099967593,
+    "mean_missed_perform_rate": 0.0,
+    "mean_max_no_progress_streak": 667.36,
+    "mean_progress_steps": 50.34,
+    "mean_cycle_breaks": 0.0,
+    "mean_terminal_stage_counts": {
+      "active_n1a": 0.73,
+      "active_n1b": 0.78,
+      "active_n2a": 0.81,
+      "active_n2b": 0.92,
+      "active_n3": 0.8,
+      "active_n4": 1.49,
+      "active_n5": 1.51,
+      "completed_cells": 5.38,
+      "completed_operations": 62.15
+    }
+  },
+  "metadata": {
+    "algo": "sacc",
+    "variant": "per_agent_sacc",
+    "difficulty": "cross5",
+    "seed": 42,
+    "obs_dim": 411,
+    "state_dim": 448,
+    "action_n": 6,
+    "num_agents": 5,
+    "uses_rm": true,
+    "per_agent_rm": true,
+    "rm_mode": "local",
+    "critic_type": "per_agent_centralized",
+    "actor_hidden_dim": 128,
+    "critic_hidden_dim": 256,
+    "disable_actor_rm": false,
+    "disable_critic_rm": false,
+    "max_steps": 800,
+    "train_start_protocol": "random",
+    "eval_seed": 100042,
+    "validation_start_set": "{ARTIFACT_ROOT}/workspaces/cross/experiments/protocols/v2/cross5_selection_starts.json",
+    "prev_ratio_clip_min": null,
+    "prev_ratio_clip_max": null,
+    "rm_kwargs": {
+      "reward_stage_event": 1.0,
+      "reward_stage_done": 1.5,
+      "reward_all_done": 4.0,
+      "penalty_idle": -0.002,
+      "penalty_no_effect": -0.1,
+      "penalty_blocked": -0.05,
+      "distance_shaping_coeff": 0.02
+    },
+    "env_reward_scale": 1.0,
+    "rm_reward_scale": 1.0,
+    "team_progress_bonus_coeff": 0.2,
+    "team_progress_bonus_final": null,
+    "train_temperature_start": 1.0,
+    "train_temperature_final": 1.0,
+    "entropy_coef_final": null,
+    "distance_shaping_final": null,
+    "eval_policy_mode": "greedy",
+    "eval_temperature": 0.35,
+    "device": "cuda",
+    "best_eval": {
+      "mean_completion_ratio": 0.7636904761904761,
+      "std_completion_ratio": 0.2623717427732943,
+      "success_rate": 0.0,
+      "mean_steps": 800.0,
+      "std_steps": 0.0,
+      "mean_objective_return": 181.37029999999947,
+      "std_objective_return": 75.26034397283865,
+      "mean_environment_return": 55.44000000000003,
+      "std_environment_return": 28.27345751760833,
+      "mean_reward": 181.37029999999947,
+      "std_reward": 75.26034397283865
+    },
+    "selected_at_episode": 800
+  },
+  "evaluation_reward_definitions": {
+    "objective_return": "sum of the method-specific training objective rewards across agents",
+    "environment_return": "sum of raw DRAMA environment rewards across agents"
+  },
+  "start_protocol": "versioned_random",
+  "start_set_path": "{ARTIFACT_ROOT}/workspaces/cross/experiments/protocols/v2/cross5_test_starts.json",
+  "start_set_id": "a61ae4b05670e88dbc66d2924c8be0170c6ec7ce4bab02358d32b7b97d1530fe",
+  "start_split": "test",
+  "unique_start_count": 100
+}

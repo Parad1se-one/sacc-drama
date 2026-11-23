@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "name": "reviewer3_large_random_tempered_sensitivity_v1",
+  "reviewer_items": [
+    "reviewer3_scale",
+    "held_out_random_start_generalization"
+  ],
+  "difficulty": "large",
+  "evaluation_seed": 370042,
+  "max_steps": 800,
+  "policy_mode": "tempered",
+  "temperature": 0.35,
+  "analysis_role": "predeclared_sensitivity",
+  "training_start_protocol": "fixed",
+  "expected_methods": [
+    "sacc",
+    "happo"
+  ],
+  "method_labels": {
+    "sacc": "Full SACC",
+    "happo": "all-off HAPPO-style backbone (not an independent HAPPO reimplementation)"
+  },
+  "expected_seeds": [
+    42,
+    123,
+    456
+  ],
+  "training_episodes_by_method": {
+    "sacc": 4000,
+    "happo": 4000
+  },
+  "training_spec_path": "experiments/specs/reviewer3_large_pilot_v1.json",
+  "training_spec_sha256": "f0a05a3d59ac89d171c8befe634f6f7059dfba9bcb9538e58ff941308ebd21ad",
+  "training_summary_path": "experiments/reports/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1_aggregate.json",
+  "training_summary_sha256": "dcf4246c2733dbd8f4c5ab1efaa28c5267bcf597bbf54a9031d25f34b365f5da",
+  "selection_start_set_id": "23684d95fbe93ca258bd97b72ae230768e28c2234e5575895bcf48f765970d80",
+  "selection_start_set_sha256": "9a7e9e64eb475f04bd3b7da59e5dc6e21b03fc12aab563b40ea45bbc24baec4c",
+  "protocols": [
+    {
+      "name": "random",
+      "path": "experiments/protocols/v1/large_test_starts.json",
+      "file_sha256": "565ca12d776591f98e91358f11bab88d19ef025a1e655d4ce6ea69966c95fe7c",
+      "start_set_id": "aec9343dcadddfb8da9ee383543a2ac54734e4560186c9e6a2435b7122cecea3",
+      "count": 100
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "sacc",
+      "method_description": "Full SACC",
+      "training_variant": "full",
+      "seed": 42,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__full__seed42_20260916-193640/checkpoints/best_by_completion.pt",
+      "sha256": "39614b541c90a1d5f14c23a824b1b13e740490cebd769e0d1da340a9942dbf5f",
+      "selected_at_episode": 800,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__full__seed42.json",
+      "training_record_sha256": "0f1f10339947e27dfaff898d3575c99d6086e27e2d470c3160aff2a451048457",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    },
+    {
+      "method": "sacc",
+      "method_description": "Full SACC",
+      "training_variant": "full",
+      "seed": 123,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__full__seed123_20260916-194826/checkpoints/best_by_completion.pt",
+      "sha256": "ee680f5f8812b58406268bbdafbdef57262d9ed4cc084f56ce9ed05decc26fbb",
+      "selected_at_episode": 400,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__full__seed123.json",
+      "training_record_sha256": "7125d593ab687ce23c6b41d3d136dca7319846479d75e9b8d6b7dfd2b3b54f01",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    },
+    {
+      "method": "sacc",
+      "method_description": "Full SACC",
+      "training_variant": "full",
+      "seed": 456,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__full__seed456_20260916-194826/checkpoints/best_by_completion.pt",
+      "sha256": "8e3d297c470b76f47b4addf99547e6229105968b5ad34091ca60cd346b8f1804",
+      "selected_at_episode": 600,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__full__seed456.json",
+      "training_record_sha256": "d27c7350596388187284f469923b083cdc7067725027d455d28626135dd8283d",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    },
+    {
+      "method": "happo",
+      "method_description": "all-off HAPPO-style backbone",
+      "training_variant": "all_off",
+      "seed": 42,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__all_off__seed42_20260917-082918/checkpoints/best_by_completion.pt",
+      "sha256": "e20ac5172d0ffd4b4465005aa904bd916940dccd4f1607222b54172cc6e3a938",
+      "selected_at_episode": 200,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__all_off__seed42.json",
+      "training_record_sha256": "fa7ac08b89b628ae66cfe2217bc07d3dd74789551edb474998429df2be9cd926",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    },
+    {
+      "method": "happo",
+      "method_description": "all-off HAPPO-style backbone",
+      "training_variant": "all_off",
+      "seed": 123,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__all_off__seed123_20260917-091844/checkpoints/best_by_completion.pt",
+      "sha256": "978f27eea92db1b6687eae007ef702fe340fe6c5225abfe5c7bd4daf1daff427",
+      "selected_at_episode": 400,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__all_off__seed123.json",
+      "training_record_sha256": "6a5827ae517a749e5d774c1c4107075ba0f5b3447d592ab21be93083be2e5150",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    },
+    {
+      "method": "happo",
+      "method_description": "all-off HAPPO-style backbone",
+      "training_variant": "all_off",
+      "seed": 456,
+      "source": "explicit",
+      "root": "robust",
+      "path": "results/reviewer3/reviewer3_large_pilot_v1/drama/large/reviewer3_large_pilot_v1__all_off__seed456_20260917-230728/checkpoints/best_by_completion.pt",
+      "sha256": "3cb948840324adc9356da6bd8c1df1200aef9e814ae637121cdc45ec4b4b21ce",
+      "selected_at_episode": 400,
+      "training_episodes": 4000,
+      "training_record": "{ARTIFACT_ROOT}/workspaces/large/experiments/run_records/reviewer3_large_pilot_v1/reviewer3_large_pilot_v1__all_off__seed456.json",
+      "training_record_sha256": "175532e68e57abc86bfb0f02e3972847bd37f620934f2bf4fea5e25f5a891baa",
+      "training_source_tree": "663470f0847ecfcf911e0076b21caecfcb77a331"
+    }
+  ]
+}

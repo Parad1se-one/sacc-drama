@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "name": "workflow_cross5_randomtrain_v2",
+  "reviewer_item": "Workflow-structure generalization: branch-merge graph with re-entrant roles; random-start training generalization",
+  "difficulty": "cross5",
+  "train_start_protocol": "random",
+  "selection_start_set": "experiments/protocols/v2/cross5_selection_starts.json",
+  "final_random_start_set": "experiments/protocols/v2/cross5_test_starts.json",
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "common_args": {
+    "episodes": 4000,
+    "max_steps": 800,
+    "ppo_epochs": 4,
+    "mini_batch_size": 64,
+    "clip_eps": 0.2,
+    "actor_lr": 0.0003,
+    "critic_lr": 0.0003,
+    "gamma": 0.99,
+    "lam": 0.95,
+    "grad_clip": 10.0,
+    "entropy_coef": 0.005,
+    "eval_interval": 200,
+    "eval_episodes": 20,
+    "eval_seed": 100042,
+    "save_interval": 200,
+    "actor_hidden_dim": 128,
+    "critic_hidden_dim": 256,
+    "rm_mode": "local",
+    "env_reward_scale": 1.0,
+    "rm_reward_scale": 1.0,
+    "team_progress_bonus_coeff": 0.2,
+    "train_temperature_start": 1.0,
+    "train_temperature_final": 1.0,
+    "eval_policy_mode": "greedy",
+    "eval_temperature": 0.35,
+    "reward_stage_event": 1.0,
+    "reward_stage_done": 1.5,
+    "reward_all_done": 4.0,
+    "penalty_idle": -0.002,
+    "penalty_no_effect": -0.1,
+    "penalty_blocked": -0.05,
+    "distance_shaping_coeff": 0.02,
+    "early_stop_patience_evals": 0,
+    "early_stop_min_episode": 0
+  },
+  "variants": [
+    {
+      "name": "full",
+      "description": "Role-conditioned per-agent SACC on the branch-merge re-entrant workflow",
+      "overrides": {}
+    },
+    {
+      "name": "team_rm",
+      "description": "Shared global workflow reward-machine baseline",
+      "overrides": {
+        "rm_mode": "team",
+        "team_progress_bonus_coeff": 0.0,
+        "distance_shaping_coeff": 0.0
+      }
+    },
+    {
+      "name": "all_off",
+      "description": "Matched learning backbone without RM inputs or progress shaping",
+      "overrides": {
+        "disable_actor_rm": true,
+        "disable_critic_rm": true,
+        "rm_reward_scale": 0.0,
+        "team_progress_bonus_coeff": 0.0,
+        "distance_shaping_coeff": 0.0
+      }
+    }
+  ],
+  "reported_metrics": [
+    "random_test_completion",
+    "random_test_steps",
+    "random_test_common_environment_return",
+    "random_test_success_appendix",
+    "validation_completion_auc"
+  ],
+  "optimization_rationale": "Versioned before either workflow v1 held-out test was evaluated. The prior fixed-start Linear-6 pilot showed unstable selection completion through episode 1200. Randomized training starts are applied identically to full, team_rm, and all_off without changing the SACC objective or optimization algorithm. Final-test starts are newly generated and disjoint from both v1 manifests and v2 selection."
+}
